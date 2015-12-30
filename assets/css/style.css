@@ -5873,7 +5873,7 @@ button.close {
   background: transparent; }
 
 .navbar {
-  padding-top: 20px;
+  padding-top: 25px;
   font-weight: 600;
   height: 95px;
   background: #171b1d; }
@@ -5884,7 +5884,7 @@ button.close {
 
 .navbar-brand > img {
   padding-top: 0px !important;
-  margin-top: -30px; }
+  margin-top: -35px; }
 
 ul.menus li {
   background: none; }
@@ -7901,11 +7901,19 @@ a {
 .icon-list a {
   width: 100%;
   display: block;
-  padding-bottom: 15px;
-  padding-top: 15px;
+  padding-bottom: 25px;
+  padding-top: 25px;
   border-bottom: 1px solid #3f4345; }
+  .icon-list a:visited, .icon-list a:link, .icon-list a:active, .icon-list a:focus {
+    text-decoration: none; }
   .icon-list a span {
-    color: #d4d9dc; }
+    color: #d4d9dc;
+    font-size: 13px; }
+    .icon-list a span:hover {
+      text-decoration: none;
+      color: #00adee; }
+  .icon-list a:nth-child(1) {
+    margin-top: -35px; }
 
 /* Menu */
 .menu-wrap {

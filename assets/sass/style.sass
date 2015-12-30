@@ -147,11 +147,19 @@
 	a
 		width: 100%
 		display: block
-		+pad-b(15px)
-		+pad-t(15px)
+		+pad-b(25px)
+		+pad-t(25px)
 		+border-b(1px solid #3f4345)
+		&:visited, &:link, &:active , &:focus
+			text-decoration: none
 		span 
 			color: #d4d9dc
+			+fontsize(13px)
+			&:hover
+				text-decoration: none
+				color: $peter-river
+		&:nth-child(1)
+			+mar-t(-35px)
 
 /* Menu */
 .menu-wrap 
