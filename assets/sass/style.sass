@@ -5,9 +5,78 @@
 
 
 @import "general"
+@import "_bootstrap"
+@import "hack"
+@import "font-awesome/font-awesome"
+@import "home"
 
-.test 
-	color: $peter-river
 
-.bebas
-	+pad-l(115px)
+/* Helper Class */
+.container-bigscreen
+	+pad-l(50px)
+	+pad-r(50px)
+.form-search
+	+mar-t(40px)
+
+
+/* UI */
+.input-simple
+	+border-l(none)
+	+border-r(none)
+	+border-t(none)
+	+border-b(1px solid #f3f6f8)
+
+/* dropdown */
+.dropdowns
+	border-bottom: 2px solid #f7f9fa
+	padding: 13px 15px
+	color: #ccc
+	background-color: #fff
+	background-image: url(../image/dropdown.png)
+	background-position: right center
+	background-repeat: no-repeat
+	cursor: pointer
+	position: relative
+
+.dropdowns ul 
+	list-style: none 
+	padding: 0 
+	margin: 0 
+	position: absolute
+	top: 48px 
+	left: -1px
+	z-index: 5
+	border: 1px solid #ccc
+	width: 100%
+	color: #ccc
+	background-color: #fff
+	display: none
+
+.dropdowns li 
+	list-style: none 
+	padding: 0 
+	margin: 0 
+	padding: 15px
+
+.dropdowns li.selected 
+	display: none
+.dropdowns li:hover 
+	background-color: #333 
+	color: #fff
+.dropdowns.open 
+	border: 1px solid #666 
+	color: #333
+.dropdowns.open ul  
+	border: 1px solid #666 
+	color: #333
+
+.myform .subject 
+	width: 100%
+	margin: 0 0 20px
+
+.blue-dropdowns
+	color: #00adee
+.green-dropdowns
+	color: $peneapple
+.evergreen-dropdowns
+	color: $evergreen
