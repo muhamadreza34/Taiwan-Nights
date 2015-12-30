@@ -62,6 +62,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/image\/en.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22931,
+		"inputAbbreviatedPath": "\/assets\/image\/en.png",
+		"outputAbbreviatedPath": "\/assets\/image\/en.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/image\/logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -69,6 +80,17 @@
 		"initialSize": 7078,
 		"inputAbbreviatedPath": "\/assets\/image\/logo.png",
 		"outputAbbreviatedPath": "\/assets\/image\/logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/image\/taiwan.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21725,
+		"inputAbbreviatedPath": "\/assets\/image\/taiwan.png",
+		"outputAbbreviatedPath": "\/assets\/image\/taiwan.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
