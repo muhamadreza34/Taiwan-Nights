@@ -51,6 +51,9 @@ img {
 *:focus {
   outline: none; }
 
+.grey-col {
+  color: #eaeaea; }
+
 /* General variable */
 /* General color variable */
 /* padding */
@@ -7702,7 +7705,7 @@ a {
     left: 0px;
     top: 0px;
     float: left; }
-    .hero-big .number-1:before, .hero-big .cover-normal .image-1:before, .cover-normal .hero-big .image-1:before, .hero-big .number-2:before, .hero-big .number-3:before, .hero-big .number-4:before {
+    .hero-big .number-1:before, .hero-big .cover-normal .image-1:before, .cover-normal .hero-big .image-1:before, .hero-big .list-blog .blog-cover .image-1:before, .list-blog .blog-cover .hero-big .image-1:before, .hero-big .list-venue .blog-cover .image-1:before, .list-venue .blog-cover .hero-big .image-1:before, .hero-big .list-venue .venue-cover .image-1:before, .list-venue .venue-cover .hero-big .image-1:before, .hero-big .list-blog .blog-cover .image-bl-1:before, .list-blog .blog-cover .hero-big .image-bl-1:before, .hero-big .list-venue .blog-cover .image-bl-1:before, .list-venue .blog-cover .hero-big .image-bl-1:before, .hero-big .list-venue .venue-cover .image-bl-1:before, .list-venue .venue-cover .hero-big .image-bl-1:before, .hero-big .list-venue .venue-cover .venue:before, .list-venue .venue-cover .hero-big .venue:before, .hero-big .number-2:before, .hero-big .number-3:before, .hero-big .number-4:before {
       background-image: -webkit-linear-gradient(135deg, rgba(55, 68, 75, 0.85), #37444b);
       background-image: -moz-linear-gradient(135deg, rgba(55, 68, 75, 0.85), #37444b);
       background-image: -o-linear-gradient(135deg, rgba(55, 68, 75, 0.85), #37444b);
@@ -7783,12 +7786,27 @@ a {
   margin-top: 30px; }
 
 .languange {
-  margin-top: 10px; }
+  margin-top: 10px;
+  list-style: none; }
 
 .w-100, .input-simple {
   width: 100% !important; }
 
+.mar-lr-15 {
+  margin: 20px 15px 35px 15px; }
+
 /* UI */
+.btn-peneapple {
+  border: 1px solid #e7f0f5;
+  padding: 15px 70px;
+  letter-spacing: 0.3px;
+  width: auto;
+  text-transform: uppercase; }
+  .btn-peneapple a {
+    color: #9cce00;
+    font-size: 12px;
+    font-weight: 600; }
+
 .input-simple {
   border-left: none;
   border-right: none;
@@ -8075,24 +8093,24 @@ a {
   font-size: 30px; }
 
 /* listing event */
-.content-list {
+.content-list, .content-promoter {
   margin-top: 30px;
   position: relative;
   left: 0;
   right: 0; }
-  .content-list .cover, .content-list .cover-normal {
+  .content-list .cover, .content-promoter .cover, .content-list .cover-normal, .content-promoter .cover-normal, .content-list .list-blog .blog-cover, .list-blog .content-list .blog-cover, .content-promoter .list-blog .blog-cover, .list-blog .content-promoter .blog-cover, .content-list .list-venue .blog-cover, .list-venue .content-list .blog-cover, .content-promoter .list-venue .blog-cover, .list-venue .content-promoter .blog-cover, .content-list .list-venue .venue-cover, .list-venue .content-list .venue-cover, .content-promoter .list-venue .venue-cover, .list-venue .content-promoter .venue-cover {
     display: block;
     position: relative;
     list-style: none;
     min-height: 490px;
     height: auto;
     /* cover */ }
-    .content-list .cover .number-1, .content-list .cover-normal .number-1, .content-list .cover .number-2, .content-list .cover-normal .number-2, .content-list .cover .number-3, .content-list .cover-normal .number-3, .content-list .cover .number-4, .content-list .cover-normal .number-4 {
+    .content-list .cover .number-1, .content-promoter .cover .number-1, .content-list .cover-normal .number-1, .content-promoter .cover-normal .number-1, .content-list .list-blog .blog-cover .number-1, .list-blog .content-list .blog-cover .number-1, .content-promoter .list-blog .blog-cover .number-1, .list-blog .content-promoter .blog-cover .number-1, .content-list .list-venue .blog-cover .number-1, .list-venue .content-list .blog-cover .number-1, .content-promoter .list-venue .blog-cover .number-1, .list-venue .content-promoter .blog-cover .number-1, .content-list .list-venue .venue-cover .number-1, .list-venue .content-list .venue-cover .number-1, .content-promoter .list-venue .venue-cover .number-1, .list-venue .content-promoter .venue-cover .number-1, .content-list .cover .number-2, .content-promoter .cover .number-2, .content-list .cover-normal .number-2, .content-promoter .cover-normal .number-2, .content-list .list-blog .blog-cover .number-2, .list-blog .content-list .blog-cover .number-2, .content-promoter .list-blog .blog-cover .number-2, .list-blog .content-promoter .blog-cover .number-2, .content-list .list-venue .blog-cover .number-2, .list-venue .content-list .blog-cover .number-2, .content-promoter .list-venue .blog-cover .number-2, .list-venue .content-promoter .blog-cover .number-2, .content-list .list-venue .venue-cover .number-2, .list-venue .content-list .venue-cover .number-2, .content-promoter .list-venue .venue-cover .number-2, .list-venue .content-promoter .venue-cover .number-2, .content-list .cover .number-3, .content-promoter .cover .number-3, .content-list .cover-normal .number-3, .content-promoter .cover-normal .number-3, .content-list .list-blog .blog-cover .number-3, .list-blog .content-list .blog-cover .number-3, .content-promoter .list-blog .blog-cover .number-3, .list-blog .content-promoter .blog-cover .number-3, .content-list .list-venue .blog-cover .number-3, .list-venue .content-list .blog-cover .number-3, .content-promoter .list-venue .blog-cover .number-3, .list-venue .content-promoter .blog-cover .number-3, .content-list .list-venue .venue-cover .number-3, .list-venue .content-list .venue-cover .number-3, .content-promoter .list-venue .venue-cover .number-3, .list-venue .content-promoter .venue-cover .number-3, .content-list .cover .number-4, .content-promoter .cover .number-4, .content-list .cover-normal .number-4, .content-promoter .cover-normal .number-4, .content-list .list-blog .blog-cover .number-4, .list-blog .content-list .blog-cover .number-4, .content-promoter .list-blog .blog-cover .number-4, .list-blog .content-promoter .blog-cover .number-4, .content-list .list-venue .blog-cover .number-4, .list-venue .content-list .blog-cover .number-4, .content-promoter .list-venue .blog-cover .number-4, .list-venue .content-promoter .blog-cover .number-4, .content-list .list-venue .venue-cover .number-4, .list-venue .content-list .venue-cover .number-4, .content-promoter .list-venue .venue-cover .number-4, .list-venue .content-promoter .venue-cover .number-4 {
       display: block;
       position: relative;
       left: 0px;
       top: 0px; }
-      .content-list .cover .number-1:before, .content-list .cover-normal .number-1:before, .cover-normal .content-list .cover .image-1:before, .content-list .cover-normal .image-1:before, .content-list .cover .number-2:before, .content-list .cover-normal .number-2:before, .content-list .cover .number-3:before, .content-list .cover-normal .number-3:before, .content-list .cover .number-4:before, .content-list .cover-normal .number-4:before {
+      .content-list .cover .number-1:before, .content-promoter .cover .number-1:before, .content-list .cover-normal .number-1:before, .content-promoter .cover-normal .number-1:before, .content-list .list-blog .blog-cover .number-1:before, .list-blog .content-list .blog-cover .number-1:before, .content-promoter .list-blog .blog-cover .number-1:before, .list-blog .content-promoter .blog-cover .number-1:before, .content-list .list-venue .blog-cover .number-1:before, .list-venue .content-list .blog-cover .number-1:before, .content-promoter .list-venue .blog-cover .number-1:before, .list-venue .content-promoter .blog-cover .number-1:before, .content-list .list-venue .venue-cover .number-1:before, .list-venue .content-list .venue-cover .number-1:before, .content-promoter .list-venue .venue-cover .number-1:before, .list-venue .content-promoter .venue-cover .number-1:before, .cover-normal .content-list .cover .image-1:before, .cover-normal .content-promoter .cover .image-1:before, .content-list .cover-normal .image-1:before, .content-promoter .cover-normal .image-1:before, .list-blog .blog-cover .content-list .cover .image-1:before, .list-blog .blog-cover .content-promoter .cover .image-1:before, .content-list .list-blog .blog-cover .image-1:before, .list-blog .content-list .blog-cover .image-1:before, .content-promoter .list-blog .blog-cover .image-1:before, .list-blog .content-promoter .blog-cover .image-1:before, .list-venue .blog-cover .content-list .cover .image-1:before, .list-venue .blog-cover .content-promoter .cover .image-1:before, .content-list .list-venue .blog-cover .image-1:before, .list-venue .content-list .blog-cover .image-1:before, .content-promoter .list-venue .blog-cover .image-1:before, .list-venue .content-promoter .blog-cover .image-1:before, .list-venue .venue-cover .content-list .cover .image-1:before, .list-venue .venue-cover .content-promoter .cover .image-1:before, .content-list .list-venue .venue-cover .image-1:before, .list-venue .content-list .venue-cover .image-1:before, .content-promoter .list-venue .venue-cover .image-1:before, .list-venue .content-promoter .venue-cover .image-1:before, .list-blog .blog-cover .content-list .cover .image-bl-1:before, .list-blog .blog-cover .content-promoter .cover .image-bl-1:before, .list-blog .blog-cover .content-list .cover-normal .image-bl-1:before, .list-blog .blog-cover .content-promoter .cover-normal .image-bl-1:before, .content-list .list-blog .blog-cover .image-bl-1:before, .list-blog .content-list .blog-cover .image-bl-1:before, .content-promoter .list-blog .blog-cover .image-bl-1:before, .list-blog .content-promoter .blog-cover .image-bl-1:before, .list-venue .blog-cover .content-list .cover .image-bl-1:before, .list-venue .blog-cover .content-promoter .cover .image-bl-1:before, .list-venue .blog-cover .content-list .cover-normal .image-bl-1:before, .list-venue .blog-cover .content-promoter .cover-normal .image-bl-1:before, .content-list .list-venue .blog-cover .image-bl-1:before, .list-venue .content-list .blog-cover .image-bl-1:before, .content-promoter .list-venue .blog-cover .image-bl-1:before, .list-venue .content-promoter .blog-cover .image-bl-1:before, .list-venue .venue-cover .content-list .cover .image-bl-1:before, .list-venue .venue-cover .content-promoter .cover .image-bl-1:before, .list-venue .venue-cover .content-list .cover-normal .image-bl-1:before, .list-venue .venue-cover .content-promoter .cover-normal .image-bl-1:before, .content-list .list-venue .venue-cover .image-bl-1:before, .list-venue .content-list .venue-cover .image-bl-1:before, .content-promoter .list-venue .venue-cover .image-bl-1:before, .list-venue .content-promoter .venue-cover .image-bl-1:before, .list-venue .venue-cover .content-list .cover .venue:before, .list-venue .venue-cover .content-promoter .cover .venue:before, .list-venue .venue-cover .content-list .cover-normal .venue:before, .list-venue .venue-cover .content-promoter .cover-normal .venue:before, .list-venue .venue-cover .content-list .blog-cover .venue:before, .list-venue .venue-cover .content-promoter .blog-cover .venue:before, .content-list .list-venue .venue-cover .venue:before, .list-venue .content-list .venue-cover .venue:before, .content-promoter .list-venue .venue-cover .venue:before, .list-venue .content-promoter .venue-cover .venue:before, .content-list .cover .number-2:before, .content-promoter .cover .number-2:before, .content-list .cover-normal .number-2:before, .content-promoter .cover-normal .number-2:before, .content-list .list-blog .blog-cover .number-2:before, .list-blog .content-list .blog-cover .number-2:before, .content-promoter .list-blog .blog-cover .number-2:before, .list-blog .content-promoter .blog-cover .number-2:before, .content-list .list-venue .blog-cover .number-2:before, .list-venue .content-list .blog-cover .number-2:before, .content-promoter .list-venue .blog-cover .number-2:before, .list-venue .content-promoter .blog-cover .number-2:before, .content-list .list-venue .venue-cover .number-2:before, .list-venue .content-list .venue-cover .number-2:before, .content-promoter .list-venue .venue-cover .number-2:before, .list-venue .content-promoter .venue-cover .number-2:before, .content-list .cover .number-3:before, .content-promoter .cover .number-3:before, .content-list .cover-normal .number-3:before, .content-promoter .cover-normal .number-3:before, .content-list .list-blog .blog-cover .number-3:before, .list-blog .content-list .blog-cover .number-3:before, .content-promoter .list-blog .blog-cover .number-3:before, .list-blog .content-promoter .blog-cover .number-3:before, .content-list .list-venue .blog-cover .number-3:before, .list-venue .content-list .blog-cover .number-3:before, .content-promoter .list-venue .blog-cover .number-3:before, .list-venue .content-promoter .blog-cover .number-3:before, .content-list .list-venue .venue-cover .number-3:before, .list-venue .content-list .venue-cover .number-3:before, .content-promoter .list-venue .venue-cover .number-3:before, .list-venue .content-promoter .venue-cover .number-3:before, .content-list .cover .number-4:before, .content-promoter .cover .number-4:before, .content-list .cover-normal .number-4:before, .content-promoter .cover-normal .number-4:before, .content-list .list-blog .blog-cover .number-4:before, .list-blog .content-list .blog-cover .number-4:before, .content-promoter .list-blog .blog-cover .number-4:before, .list-blog .content-promoter .blog-cover .number-4:before, .content-list .list-venue .blog-cover .number-4:before, .list-venue .content-list .blog-cover .number-4:before, .content-promoter .list-venue .blog-cover .number-4:before, .list-venue .content-promoter .blog-cover .number-4:before, .content-list .list-venue .venue-cover .number-4:before, .list-venue .content-list .venue-cover .number-4:before, .content-promoter .list-venue .venue-cover .number-4:before, .list-venue .content-promoter .venue-cover .number-4:before {
         background-image: -webkit-linear-gradient(135deg, rgba(55, 68, 75, 0.6), #37444b);
         background-image: -moz-linear-gradient(135deg, rgba(55, 68, 75, 0.6), #37444b);
         background-image: -o-linear-gradient(135deg, rgba(55, 68, 75, 0.6), #37444b);
@@ -8105,39 +8123,39 @@ a {
         right: 0px;
         left: 0;
         content: ""; }
-    .content-list .cover .number-1, .content-list .cover-normal .number-1 {
+    .content-list .cover .number-1, .content-promoter .cover .number-1, .content-list .cover-normal .number-1, .content-promoter .cover-normal .number-1, .content-list .list-blog .blog-cover .number-1, .list-blog .content-list .blog-cover .number-1, .content-promoter .list-blog .blog-cover .number-1, .list-blog .content-promoter .blog-cover .number-1, .content-list .list-venue .blog-cover .number-1, .list-venue .content-list .blog-cover .number-1, .content-promoter .list-venue .blog-cover .number-1, .list-venue .content-promoter .blog-cover .number-1, .content-list .list-venue .venue-cover .number-1, .list-venue .content-list .venue-cover .number-1, .content-promoter .list-venue .venue-cover .number-1, .list-venue .content-promoter .venue-cover .number-1 {
       background: url(../image/event/1.png);
       background-size: cover;
       display: block;
       min-height: 450px; }
-    .content-list .cover .wrapper-title, .content-list .cover-normal .wrapper-title {
+    .content-list .cover .wrapper-title, .content-promoter .cover .wrapper-title, .content-list .cover-normal .wrapper-title, .content-promoter .cover-normal .wrapper-title, .content-list .list-blog .blog-cover .wrapper-title, .list-blog .content-list .blog-cover .wrapper-title, .content-promoter .list-blog .blog-cover .wrapper-title, .list-blog .content-promoter .blog-cover .wrapper-title, .content-list .list-venue .blog-cover .wrapper-title, .list-venue .content-list .blog-cover .wrapper-title, .content-promoter .list-venue .blog-cover .wrapper-title, .list-venue .content-promoter .blog-cover .wrapper-title, .content-list .list-venue .venue-cover .wrapper-title, .list-venue .content-list .venue-cover .wrapper-title, .content-promoter .list-venue .venue-cover .wrapper-title, .list-venue .content-promoter .venue-cover .wrapper-title {
       position: absolute;
       display: inline-block;
       bottom: 15px;
       margin: 15px; }
-      .content-list .cover .wrapper-title h3, .content-list .cover-normal .wrapper-title h3 {
+      .content-list .cover .wrapper-title h3, .content-promoter .cover .wrapper-title h3, .content-list .cover-normal .wrapper-title h3, .content-promoter .cover-normal .wrapper-title h3, .content-list .list-blog .blog-cover .wrapper-title h3, .list-blog .content-list .blog-cover .wrapper-title h3, .content-promoter .list-blog .blog-cover .wrapper-title h3, .list-blog .content-promoter .blog-cover .wrapper-title h3, .content-list .list-venue .blog-cover .wrapper-title h3, .list-venue .content-list .blog-cover .wrapper-title h3, .content-promoter .list-venue .blog-cover .wrapper-title h3, .list-venue .content-promoter .blog-cover .wrapper-title h3, .content-list .list-venue .venue-cover .wrapper-title h3, .list-venue .content-list .venue-cover .wrapper-title h3, .content-promoter .list-venue .venue-cover .wrapper-title h3, .list-venue .content-promoter .venue-cover .wrapper-title h3 {
         font-size: 18px;
         font-weight: 100 !important;
         letter-spacing: 0.8px; }
-        .content-list .cover .wrapper-title h3 .top, .content-list .cover-normal .wrapper-title h3 .top, .content-list .cover .wrapper-title h3 .bottom, .content-list .cover-normal .wrapper-title h3 .bottom {
+        .content-list .cover .wrapper-title h3 .top, .content-promoter .cover .wrapper-title h3 .top, .content-list .cover-normal .wrapper-title h3 .top, .content-promoter .cover-normal .wrapper-title h3 .top, .content-list .list-blog .blog-cover .wrapper-title h3 .top, .list-blog .content-list .blog-cover .wrapper-title h3 .top, .content-promoter .list-blog .blog-cover .wrapper-title h3 .top, .list-blog .content-promoter .blog-cover .wrapper-title h3 .top, .content-list .list-venue .blog-cover .wrapper-title h3 .top, .list-venue .content-list .blog-cover .wrapper-title h3 .top, .content-promoter .list-venue .blog-cover .wrapper-title h3 .top, .list-venue .content-promoter .blog-cover .wrapper-title h3 .top, .content-list .list-venue .venue-cover .wrapper-title h3 .top, .list-venue .content-list .venue-cover .wrapper-title h3 .top, .content-promoter .list-venue .venue-cover .wrapper-title h3 .top, .list-venue .content-promoter .venue-cover .wrapper-title h3 .top, .content-list .cover .wrapper-title h3 .bottom, .content-promoter .cover .wrapper-title h3 .bottom, .content-list .cover-normal .wrapper-title h3 .bottom, .content-promoter .cover-normal .wrapper-title h3 .bottom, .content-list .list-blog .blog-cover .wrapper-title h3 .bottom, .list-blog .content-list .blog-cover .wrapper-title h3 .bottom, .content-promoter .list-blog .blog-cover .wrapper-title h3 .bottom, .list-blog .content-promoter .blog-cover .wrapper-title h3 .bottom, .content-list .list-venue .blog-cover .wrapper-title h3 .bottom, .list-venue .content-list .blog-cover .wrapper-title h3 .bottom, .content-promoter .list-venue .blog-cover .wrapper-title h3 .bottom, .list-venue .content-promoter .blog-cover .wrapper-title h3 .bottom, .content-list .list-venue .venue-cover .wrapper-title h3 .bottom, .list-venue .content-list .venue-cover .wrapper-title h3 .bottom, .content-promoter .list-venue .venue-cover .wrapper-title h3 .bottom, .list-venue .content-promoter .venue-cover .wrapper-title h3 .bottom {
           color: #fff;
           padding: 5px 10px; }
-        .content-list .cover .wrapper-title h3 .title-blue, .content-list .cover-normal .wrapper-title h3 .title-blue {
+        .content-list .cover .wrapper-title h3 .title-blue, .content-promoter .cover .wrapper-title h3 .title-blue, .content-list .cover-normal .wrapper-title h3 .title-blue, .content-promoter .cover-normal .wrapper-title h3 .title-blue, .content-list .list-blog .blog-cover .wrapper-title h3 .title-blue, .list-blog .content-list .blog-cover .wrapper-title h3 .title-blue, .content-promoter .list-blog .blog-cover .wrapper-title h3 .title-blue, .list-blog .content-promoter .blog-cover .wrapper-title h3 .title-blue, .content-list .list-venue .blog-cover .wrapper-title h3 .title-blue, .list-venue .content-list .blog-cover .wrapper-title h3 .title-blue, .content-promoter .list-venue .blog-cover .wrapper-title h3 .title-blue, .list-venue .content-promoter .blog-cover .wrapper-title h3 .title-blue, .content-list .list-venue .venue-cover .wrapper-title h3 .title-blue, .list-venue .content-list .venue-cover .wrapper-title h3 .title-blue, .content-promoter .list-venue .venue-cover .wrapper-title h3 .title-blue, .list-venue .content-promoter .venue-cover .wrapper-title h3 .title-blue {
           background: #00adee; }
-        .content-list .cover .wrapper-title h3 .title-purple, .content-list .cover-normal .wrapper-title h3 .title-purple {
+        .content-list .cover .wrapper-title h3 .title-purple, .content-promoter .cover .wrapper-title h3 .title-purple, .content-list .cover-normal .wrapper-title h3 .title-purple, .content-promoter .cover-normal .wrapper-title h3 .title-purple, .content-list .list-blog .blog-cover .wrapper-title h3 .title-purple, .list-blog .content-list .blog-cover .wrapper-title h3 .title-purple, .content-promoter .list-blog .blog-cover .wrapper-title h3 .title-purple, .list-blog .content-promoter .blog-cover .wrapper-title h3 .title-purple, .content-list .list-venue .blog-cover .wrapper-title h3 .title-purple, .list-venue .content-list .blog-cover .wrapper-title h3 .title-purple, .content-promoter .list-venue .blog-cover .wrapper-title h3 .title-purple, .list-venue .content-promoter .blog-cover .wrapper-title h3 .title-purple, .content-list .list-venue .venue-cover .wrapper-title h3 .title-purple, .list-venue .content-list .venue-cover .wrapper-title h3 .title-purple, .content-promoter .list-venue .venue-cover .wrapper-title h3 .title-purple, .list-venue .content-promoter .venue-cover .wrapper-title h3 .title-purple {
           background: #860cdb; }
-        .content-list .cover .wrapper-title h3 .title-evergreen, .content-list .cover-normal .wrapper-title h3 .title-evergreen {
+        .content-list .cover .wrapper-title h3 .title-evergreen, .content-promoter .cover .wrapper-title h3 .title-evergreen, .content-list .cover-normal .wrapper-title h3 .title-evergreen, .content-promoter .cover-normal .wrapper-title h3 .title-evergreen, .content-list .list-blog .blog-cover .wrapper-title h3 .title-evergreen, .list-blog .content-list .blog-cover .wrapper-title h3 .title-evergreen, .content-promoter .list-blog .blog-cover .wrapper-title h3 .title-evergreen, .list-blog .content-promoter .blog-cover .wrapper-title h3 .title-evergreen, .content-list .list-venue .blog-cover .wrapper-title h3 .title-evergreen, .list-venue .content-list .blog-cover .wrapper-title h3 .title-evergreen, .content-promoter .list-venue .blog-cover .wrapper-title h3 .title-evergreen, .list-venue .content-promoter .blog-cover .wrapper-title h3 .title-evergreen, .content-list .list-venue .venue-cover .wrapper-title h3 .title-evergreen, .list-venue .content-list .venue-cover .wrapper-title h3 .title-evergreen, .content-promoter .list-venue .venue-cover .wrapper-title h3 .title-evergreen, .list-venue .content-promoter .venue-cover .wrapper-title h3 .title-evergreen {
           background: #00b57b; }
-        .content-list .cover .wrapper-title h3 .title-green, .content-list .cover-normal .wrapper-title h3 .title-green {
+        .content-list .cover .wrapper-title h3 .title-green, .content-promoter .cover .wrapper-title h3 .title-green, .content-list .cover-normal .wrapper-title h3 .title-green, .content-promoter .cover-normal .wrapper-title h3 .title-green, .content-list .list-blog .blog-cover .wrapper-title h3 .title-green, .list-blog .content-list .blog-cover .wrapper-title h3 .title-green, .content-promoter .list-blog .blog-cover .wrapper-title h3 .title-green, .list-blog .content-promoter .blog-cover .wrapper-title h3 .title-green, .content-list .list-venue .blog-cover .wrapper-title h3 .title-green, .list-venue .content-list .blog-cover .wrapper-title h3 .title-green, .content-promoter .list-venue .blog-cover .wrapper-title h3 .title-green, .list-venue .content-promoter .blog-cover .wrapper-title h3 .title-green, .content-list .list-venue .venue-cover .wrapper-title h3 .title-green, .list-venue .content-list .venue-cover .wrapper-title h3 .title-green, .content-promoter .list-venue .venue-cover .wrapper-title h3 .title-green, .list-venue .content-promoter .venue-cover .wrapper-title h3 .title-green {
           background: #9cce00; }
-        .content-list .cover .wrapper-title h3 .top, .content-list .cover-normal .wrapper-title h3 .top {
+        .content-list .cover .wrapper-title h3 .top, .content-promoter .cover .wrapper-title h3 .top, .content-list .cover-normal .wrapper-title h3 .top, .content-promoter .cover-normal .wrapper-title h3 .top, .content-list .list-blog .blog-cover .wrapper-title h3 .top, .list-blog .content-list .blog-cover .wrapper-title h3 .top, .content-promoter .list-blog .blog-cover .wrapper-title h3 .top, .list-blog .content-promoter .blog-cover .wrapper-title h3 .top, .content-list .list-venue .blog-cover .wrapper-title h3 .top, .list-venue .content-list .blog-cover .wrapper-title h3 .top, .content-promoter .list-venue .blog-cover .wrapper-title h3 .top, .list-venue .content-promoter .blog-cover .wrapper-title h3 .top, .content-list .list-venue .venue-cover .wrapper-title h3 .top, .list-venue .content-list .venue-cover .wrapper-title h3 .top, .content-promoter .list-venue .venue-cover .wrapper-title h3 .top, .list-venue .content-promoter .venue-cover .wrapper-title h3 .top {
           display: inline-block;
           width: auto;
           margin-bottom: 8px; }
-        .content-list .cover .wrapper-title h3 .bottom, .content-list .cover-normal .wrapper-title h3 .bottom {
+        .content-list .cover .wrapper-title h3 .bottom, .content-promoter .cover .wrapper-title h3 .bottom, .content-list .cover-normal .wrapper-title h3 .bottom, .content-promoter .cover-normal .wrapper-title h3 .bottom, .content-list .list-blog .blog-cover .wrapper-title h3 .bottom, .list-blog .content-list .blog-cover .wrapper-title h3 .bottom, .content-promoter .list-blog .blog-cover .wrapper-title h3 .bottom, .list-blog .content-promoter .blog-cover .wrapper-title h3 .bottom, .content-list .list-venue .blog-cover .wrapper-title h3 .bottom, .list-venue .content-list .blog-cover .wrapper-title h3 .bottom, .content-promoter .list-venue .blog-cover .wrapper-title h3 .bottom, .list-venue .content-promoter .blog-cover .wrapper-title h3 .bottom, .content-list .list-venue .venue-cover .wrapper-title h3 .bottom, .list-venue .content-list .venue-cover .wrapper-title h3 .bottom, .content-promoter .list-venue .venue-cover .wrapper-title h3 .bottom, .list-venue .content-promoter .venue-cover .wrapper-title h3 .bottom {
           display: inline;
           width: auto; }
-      .content-list .cover .wrapper-title h5, .content-list .cover-normal .wrapper-title h5 {
+      .content-list .cover .wrapper-title h5, .content-promoter .cover .wrapper-title h5, .content-list .cover-normal .wrapper-title h5, .content-promoter .cover-normal .wrapper-title h5, .content-list .list-blog .blog-cover .wrapper-title h5, .list-blog .content-list .blog-cover .wrapper-title h5, .content-promoter .list-blog .blog-cover .wrapper-title h5, .list-blog .content-promoter .blog-cover .wrapper-title h5, .content-list .list-venue .blog-cover .wrapper-title h5, .list-venue .content-list .blog-cover .wrapper-title h5, .content-promoter .list-venue .blog-cover .wrapper-title h5, .list-venue .content-promoter .blog-cover .wrapper-title h5, .content-list .list-venue .venue-cover .wrapper-title h5, .list-venue .content-list .venue-cover .wrapper-title h5, .content-promoter .list-venue .venue-cover .wrapper-title h5, .list-venue .content-promoter .venue-cover .wrapper-title h5 {
         margin-top: 7px;
         font-size: 13px;
         font-weight: 100;
@@ -8145,43 +8163,43 @@ a {
         width: auto;
         display: inline-block;
         color: #fff; }
-        .content-list .cover .wrapper-title h5 .title-gold, .content-list .cover-normal .wrapper-title h5 .title-gold {
+        .content-list .cover .wrapper-title h5 .title-gold, .content-promoter .cover .wrapper-title h5 .title-gold, .content-list .cover-normal .wrapper-title h5 .title-gold, .content-promoter .cover-normal .wrapper-title h5 .title-gold, .content-list .list-blog .blog-cover .wrapper-title h5 .title-gold, .list-blog .content-list .blog-cover .wrapper-title h5 .title-gold, .content-promoter .list-blog .blog-cover .wrapper-title h5 .title-gold, .list-blog .content-promoter .blog-cover .wrapper-title h5 .title-gold, .content-list .list-venue .blog-cover .wrapper-title h5 .title-gold, .list-venue .content-list .blog-cover .wrapper-title h5 .title-gold, .content-promoter .list-venue .blog-cover .wrapper-title h5 .title-gold, .list-venue .content-promoter .blog-cover .wrapper-title h5 .title-gold, .content-list .list-venue .venue-cover .wrapper-title h5 .title-gold, .list-venue .content-list .venue-cover .wrapper-title h5 .title-gold, .content-promoter .list-venue .venue-cover .wrapper-title h5 .title-gold, .list-venue .content-promoter .venue-cover .wrapper-title h5 .title-gold {
           background: #d3c19d;
           padding: 5px 10px; }
-          .content-list .cover .wrapper-title h5 .title-gold i, .content-list .cover-normal .wrapper-title h5 .title-gold i {
+          .content-list .cover .wrapper-title h5 .title-gold i, .content-promoter .cover .wrapper-title h5 .title-gold i, .content-list .cover-normal .wrapper-title h5 .title-gold i, .content-promoter .cover-normal .wrapper-title h5 .title-gold i, .content-list .list-blog .blog-cover .wrapper-title h5 .title-gold i, .list-blog .content-list .blog-cover .wrapper-title h5 .title-gold i, .content-promoter .list-blog .blog-cover .wrapper-title h5 .title-gold i, .list-blog .content-promoter .blog-cover .wrapper-title h5 .title-gold i, .content-list .list-venue .blog-cover .wrapper-title h5 .title-gold i, .list-venue .content-list .blog-cover .wrapper-title h5 .title-gold i, .content-promoter .list-venue .blog-cover .wrapper-title h5 .title-gold i, .list-venue .content-promoter .blog-cover .wrapper-title h5 .title-gold i, .content-list .list-venue .venue-cover .wrapper-title h5 .title-gold i, .list-venue .content-list .venue-cover .wrapper-title h5 .title-gold i, .content-promoter .list-venue .venue-cover .wrapper-title h5 .title-gold i, .list-venue .content-promoter .venue-cover .wrapper-title h5 .title-gold i {
             color: #80755f; }
-    .content-list .cover .date-top, .content-list .cover-normal .date-top {
+    .content-list .cover .date-top, .content-promoter .cover .date-top, .content-list .cover-normal .date-top, .content-promoter .cover-normal .date-top, .content-list .list-blog .blog-cover .date-top, .list-blog .content-list .blog-cover .date-top, .content-promoter .list-blog .blog-cover .date-top, .list-blog .content-promoter .blog-cover .date-top, .content-list .list-venue .blog-cover .date-top, .list-venue .content-list .blog-cover .date-top, .content-promoter .list-venue .blog-cover .date-top, .list-venue .content-promoter .blog-cover .date-top, .content-list .list-venue .venue-cover .date-top, .list-venue .content-list .venue-cover .date-top, .content-promoter .list-venue .venue-cover .date-top, .list-venue .content-promoter .venue-cover .date-top {
       padding: 5px 10px;
       margin: 15px;
       width: auto;
       color: #fff;
       position: absolute;
       background: #93c5d8; }
-      .content-list .cover .date-top .date, .content-list .cover-normal .date-top .date {
+      .content-list .cover .date-top .date, .content-promoter .cover .date-top .date, .content-list .cover-normal .date-top .date, .content-promoter .cover-normal .date-top .date, .content-list .list-blog .blog-cover .date-top .date, .list-blog .content-list .blog-cover .date-top .date, .content-promoter .list-blog .blog-cover .date-top .date, .list-blog .content-promoter .blog-cover .date-top .date, .content-list .list-venue .blog-cover .date-top .date, .list-venue .content-list .blog-cover .date-top .date, .content-promoter .list-venue .blog-cover .date-top .date, .list-venue .content-promoter .blog-cover .date-top .date, .content-list .list-venue .venue-cover .date-top .date, .list-venue .content-list .venue-cover .date-top .date, .content-promoter .list-venue .venue-cover .date-top .date, .list-venue .content-promoter .venue-cover .date-top .date {
         font-size: 11px; }
-      .content-list .cover .date-top .day, .content-list .cover-normal .date-top .day {
+      .content-list .cover .date-top .day, .content-promoter .cover .date-top .day, .content-list .cover-normal .date-top .day, .content-promoter .cover-normal .date-top .day, .content-list .list-blog .blog-cover .date-top .day, .list-blog .content-list .blog-cover .date-top .day, .content-promoter .list-blog .blog-cover .date-top .day, .list-blog .content-promoter .blog-cover .date-top .day, .content-list .list-venue .blog-cover .date-top .day, .list-venue .content-list .blog-cover .date-top .day, .content-promoter .list-venue .blog-cover .date-top .day, .list-venue .content-promoter .blog-cover .date-top .day, .content-list .list-venue .venue-cover .date-top .day, .list-venue .content-list .venue-cover .date-top .day, .content-promoter .list-venue .venue-cover .date-top .day, .list-venue .content-promoter .venue-cover .date-top .day {
         font-size: 13px;
         text-transform: uppercase; }
 
 /* top event list */
-.list-event {
+.list-event, .list-blog, .list-venue {
   margin: 0;
   padding: 0;
   list-style: none; }
 
 /* normal event list */
-.cover-normal {
-  height: 320px !important; }
-  .cover-normal .wrapper-title {
+.cover-normal, .list-blog .blog-cover, .list-venue .blog-cover, .list-venue .venue-cover {
+  min-height: 370px !important; }
+  .cover-normal .wrapper-title, .list-blog .blog-cover .wrapper-title, .list-venue .blog-cover .wrapper-title, .list-venue .venue-cover .wrapper-title {
     bottom: -25px !important;
     left: -5px; }
-  .cover-normal .image-1 {
+  .cover-normal .image-1, .list-blog .blog-cover .image-1, .list-venue .blog-cover .image-1, .list-venue .venue-cover .image-1, .list-blog .blog-cover .image-bl-1, .list-venue .blog-cover .image-bl-1, .list-venue .venue-cover .image-bl-1, .list-venue .venue-cover .venue {
     display: block;
     position: relative;
-    min-height: 250px;
+    min-height: 220px;
     background-size: cover;
     background: url(../image/event/4.png); }
-  .cover-normal h5 {
+  .cover-normal h5, .list-blog .blog-cover h5, .list-venue .blog-cover h5, .list-venue .venue-cover h5 {
     bottom: 0px;
     margin-left: -10px; }
 
@@ -8191,3 +8209,103 @@ a {
   font-weight: 100;
   width: 72%;
   line-height: 24px; }
+
+/* blog */
+.list-blog, .list-venue {
+  margin-top: 20px; }
+  .list-blog .blog-cover .image-bl-1, .list-venue .blog-cover .image-bl-1, .list-venue .venue-cover .image-bl-1 {
+    display: block;
+    position: relative;
+    background-size: cover;
+    background: url(../image/blog/1.png); }
+  .list-blog .blog-cover .gradient, .list-venue .blog-cover .gradient, .list-venue .venue-cover .gradient {
+    position: relative; }
+    .list-blog .blog-cover .gradient:before, .list-venue .blog-cover .gradient:before, .list-venue .venue-cover .gradient:before {
+      background-image: -webkit-linear-gradient(135deg, rgba(55, 68, 75, 0.6), #37444b);
+      background-image: -moz-linear-gradient(135deg, rgba(55, 68, 75, 0.6), #37444b);
+      background-image: -o-linear-gradient(135deg, rgba(55, 68, 75, 0.6), #37444b);
+      opacity: 0.7;
+      background-image: linear-gradient(135deg, rgba(55, 68, 75, 0.6), #37444b);
+      background: rgba(55, 68, 75, 0.6);
+      position: absolute;
+      top: 0px;
+      bottom: 0px;
+      right: 0px;
+      left: 0;
+      content: ""; }
+  .list-blog .blog-cover .date, .list-venue .blog-cover .date, .list-venue .venue-cover .date {
+    font-size: 12px;
+    color: #00adee; }
+
+/* Venue */
+.list-venue {
+  margin-top: 130px; }
+  .list-venue .venue-cover {
+    min-height: 310px !important; }
+    .list-venue .venue-cover .venue {
+      height: 280px; }
+      .list-venue .venue-cover .venue .open {
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        padding: 10px 10px;
+        margin: 15px;
+        color: #fff;
+        background: transparent;
+        position: absolute; }
+        .list-venue .venue-cover .venue .open .available {
+          text-transform: uppercase;
+          line-height: 10px;
+          font-size: 12px; }
+        .list-venue .venue-cover .venue .open .day {
+          font-size: 10px;
+          text-align: center; }
+    .list-venue .venue-cover .venue-1 {
+      background: url(../image/venue/1.png); }
+    .list-venue .venue-cover .wrapper-title {
+      position: absolute;
+      display: inline-block;
+      bottom: 10px !important;
+      margin: 15px 20px; }
+      .list-venue .venue-cover .wrapper-title h3 {
+        font-size: 18px;
+        font-weight: 100 !important;
+        letter-spacing: 0.5px; }
+        .list-venue .venue-cover .wrapper-title h3 .top, .list-venue .venue-cover .wrapper-title h3 .bottom {
+          color: #fff;
+          padding: 5px 10px; }
+        .list-venue .venue-cover .wrapper-title h3 .title-black {
+          background: rgba(82, 82, 82, 0.4); }
+        .list-venue .venue-cover .wrapper-title h3 .top {
+          display: inline-block;
+          width: auto;
+          margin-bottom: 8px; }
+        .list-venue .venue-cover .wrapper-title h3 .bottom {
+          display: inline;
+          width: auto; }
+      .list-venue .venue-cover .wrapper-title h5 {
+        font-size: 13px;
+        font-weight: 100;
+        margin-left: 0px;
+        margin-top: -10px;
+        letter-spacing: 0.5px;
+        width: auto;
+        display: inline-block;
+        color: #fff; }
+        .list-venue .venue-cover .wrapper-title h5 .title-black {
+          padding: 5px 10px;
+          background: rgba(82, 82, 82, 0.3); }
+
+/* promoter */
+footer {
+  padding: 80px 0 160px 0;
+  background: #363d41;
+  letter-spacing: 0.4px; }
+  footer img {
+    width: 280px; }
+  footer h4 {
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 30px; }
+  footer a {
+    color: #526168;
+    font-size: 14px;
+    line-height: 32px; }

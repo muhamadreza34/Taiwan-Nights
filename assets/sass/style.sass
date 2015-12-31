@@ -19,11 +19,26 @@
 	+mar-t(30px)
 .languange
 	+mar-t(10px)
+	list-style: none
 .w-100
 	width: 100% !important
+.mar-lr-15
+	+mar(20px 15px 35px 15px)
+
 
 
 /* UI */
+.btn-peneapple
+	+border(1px solid #e7f0f5)
+	+pad(15px 70px)
+	letter-spacing: 0.3px
+	width: auto
+	text-transform: uppercase
+	a
+		color: $peneapple
+		+fontsize(12px)
+		+fontweight(600)
+
 .input-simple
 	+border-l(none)
 	+border-r(none)
@@ -423,7 +438,7 @@
 /* normal event list */
 .cover-normal
 	@extend .cover
-	height: 320px !important
+	min-height: 370px !important
 
 	.wrapper-title
 		bottom: -25px !important
@@ -435,7 +450,7 @@
 	.image-1
 		display: block
 		position: relative
-		min-height: 250px
+		min-height: 220px
 		background-size: cover
 		background: url(../image/event/4.png)
 
@@ -449,3 +464,125 @@
 	+fontweight(100)
 	width: 72%
 	line-height: 24px
+
+/* blog */
+.list-blog
+	@extend .list-event
+	+mar-t(20px)
+	.blog-cover
+		@extend .cover
+		@extend .cover-normal
+		.image-bl-1
+			@extend .image-1
+
+		.image-bl-1
+			display: block
+			position: relative
+			background-size: cover
+			background: url(../image/blog/1.png)
+
+		.gradient
+			position: relative 
+			&:before
+				background-image: -webkit-linear-gradient(135deg,rgba(55,68,75,0.6),#37444b)
+				background-image: -moz-linear-gradient(135deg,rgba(55,68,75,0.6),#37444b)
+				background-image: -o-linear-gradient(135deg,rgba(55,68,75,0.6),#37444b)
+				opacity: 0.7
+				background-image: linear-gradient(135deg,rgba(55,68,75,0.6),#37444b)
+				background: rgba(55,68,75,0.6)
+				position: absolute
+				top: 0px
+				bottom: 0px
+				right: 0px
+				left: 0
+				content: ''
+
+		.date
+			+fontsize(12px)
+			color: $peter-river
+
+/* Venue */
+.list-venue
+	+mar-t(130px)
+	@extend .list-blog
+	.venue-cover
+		@extend .blog-cover
+		min-height: 310px !important
+		.venue
+			@extend .image-1
+			height: 280px
+			.open
+				+border(1px solid rgba(255, 255, 255, .3))
+				+pad(10px 10px)
+				+mar(15px)
+				color: #fff
+				background: transparent
+				position: absolute
+				.available
+					text-transform: uppercase
+					line-height: 10px
+					+fontsize(12px)
+				.day
+					+fontsize(10px)
+					text-align: center
+
+		.gradient
+			@extend .gradient
+		.venue-1
+			background: url(../image/venue/1.png)
+		.wrapper-title
+			position: absolute
+			display: inline-block
+			bottom: 10px !important
+			+mar(15px 20px)
+			h3
+				+fontsize(18px)
+				+fontweight(100 !important)
+				letter-spacing: 0.5px
+				.top, .bottom
+					color: #fff	
+					+pad(5px 10px)
+				.title-black
+					background: rgba(82, 82 , 82, .4)
+
+
+				.top
+					display: inline-block
+					width: auto
+					margin-bottom: 8px
+				.bottom
+					display: inline
+					width: auto
+
+			h5 
+				+fontsize(13px)
+				+fontweight(100)
+				+mar-l(0px)
+				+mar-t(-10px)
+				letter-spacing: 0.5px
+				width: auto
+				display: inline-block
+				color: #fff
+				.title-black
+					+pad(5px 10px)
+					background: rgba(82, 82 , 82, .3)
+
+
+/* promoter */
+.content-promoter
+	@extend .content-list
+
+footer
+	+pad(80px 0 160px 0)
+	background: #363d41
+	letter-spacing: 0.4px
+	img
+		width: 280px
+	h4 
+		+fontsize(12px)
+		+fontweight(700)
+		+mar-b(30px) 
+	a 
+		color: #526168
+		+fontsize(14px)
+		line-height: 32px
