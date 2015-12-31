@@ -7789,11 +7789,20 @@ a {
   margin-top: 10px;
   list-style: none; }
 
-.w-100, .input-simple {
+.w-100, .input-simple, .form-search-dark {
   width: 100% !important; }
+
+.mar-0 {
+  margin: 0px !important; }
+
+.mar-t-30 {
+  margin-top: 30px !important; }
 
 .mar-lr-15 {
   margin: 20px 15px 35px 15px; }
+
+.pad-none {
+  padding: 0px; }
 
 /* UI */
 .btn-peneapple {
@@ -7815,12 +7824,22 @@ a {
   color: #00a7ed;
   background: transparent; }
 
+.form-search-dark {
+  position: relative;
+  background: #171b1d;
+  padding: 15px 0 25px 0;
+  margin-top: 95px;
+  border-top: 1px solid #222627; }
+  .form-search-dark .dropdowns {
+    border-bottom: 2px solid #2d3233; }
+  .form-search-dark .green-dropdowns, .form-search-dark .evergreen-dropdowns, .form-search-dark .blue-dropdowns {
+    opacity: 0.7; }
+
 /* dropdown */
 .dropdowns {
   border-bottom: 2px solid #f7f9fa;
   padding: 13px 15px;
   color: #ccc;
-  background-color: #fff;
   background-image: url(../image/dropdown.png);
   background-position: 97% center;
   background-repeat: no-repeat;
@@ -7838,7 +7857,6 @@ a {
   border: 1px solid #ccc;
   width: 100%;
   color: #ccc;
-  background-color: #fff;
   display: none; }
 
 .dropdowns li {
@@ -8285,7 +8303,7 @@ a {
         font-size: 13px;
         font-weight: 100;
         margin-left: 0px;
-        margin-top: -10px;
+        margin-top: -10px !important;
         letter-spacing: 0.5px;
         width: auto;
         display: inline-block;
@@ -8296,7 +8314,8 @@ a {
 
 /* promoter */
 footer {
-  padding: 80px 0 160px 0;
+  margin-top: 120px;
+  padding: 80px 0 130px 0;
   background: #363d41;
   letter-spacing: 0.4px; }
   footer img {

@@ -22,8 +22,17 @@
 	list-style: none
 .w-100
 	width: 100% !important
+
+.mar-0
+	+mar(0px !important)
+.mar-t-30
+	+mar-t(30px !important)
 .mar-lr-15
 	+mar(20px 15px 35px 15px)
+
+
+.pad-none
+	+pad(0px)
 
 
 
@@ -48,12 +57,23 @@
 	background: transparent 
 	@extend .w-100
 
+.form-search-dark
+	position: relative
+	background: #171b1d
+	+pad(15px 0 25px 0)
+	+mar-t(95px)
+	@extend .w-100
+	+border-t(1px solid #222627)
+	.dropdowns
+		+border-b(2px solid #2d3233)
+	.green-dropdowns, .evergreen-dropdowns, .blue-dropdowns
+		opacity: 0.7
+
 /* dropdown */
 .dropdowns
 	border-bottom: 2px solid #f7f9fa
 	padding: 13px 15px 
 	color: #ccc
-	background-color: #fff
 	background-image: url(../image/dropdown.png)
 	background-position: 97% center
 	background-repeat: no-repeat
@@ -71,7 +91,6 @@
 	border: 1px solid #ccc
 	width: 100%
 	color: #ccc
-	background-color: #fff
 	display: none
 
 .dropdowns li 
@@ -544,8 +563,6 @@
 					+pad(5px 10px)
 				.title-black
 					background: rgba(82, 82 , 82, .4)
-
-
 				.top
 					display: inline-block
 					width: auto
@@ -558,7 +575,7 @@
 				+fontsize(13px)
 				+fontweight(100)
 				+mar-l(0px)
-				+mar-t(-10px)
+				+mar-t(-10px !important)
 				letter-spacing: 0.5px
 				width: auto
 				display: inline-block
@@ -573,7 +590,8 @@
 	@extend .content-list
 
 footer
-	+pad(80px 0 160px 0)
+	+mar-t(120px)
+	+pad(80px 0 130px 0)
 	background: #363d41
 	letter-spacing: 0.4px
 	img
@@ -586,3 +604,5 @@ footer
 		color: #526168
 		+fontsize(14px)
 		line-height: 32px
+
+

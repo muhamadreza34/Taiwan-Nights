@@ -1,0 +1,350 @@
+html lang="en"
+	head
+		meta charset="utf-8"
+		title Taiwan Nights - Taiwan Nights · Home · Taipei · Places, Events, People, Partying, Clubbing and Dining! The One-Stop Gateway for Taiwan Nightlife.
+		meta content="IE=edge" http-equiv="X-UA-Compatible"
+		meta content="width=device-width, initial-scale=1" name="viewport"
+		meta content="Taipei · Taiwan Nights is the number one source for nightlife in Taiwan. Find parties, clubs, bars or lounges, restaurants and promote your events online. All *truly* bilingual in English and Chinese." name="description"
+		meta content="Muhamad Reza Adityawarman" name="author"
+		
+		/!styles
+		link href="assets/css/style.css" rel="stylesheet"
+
+		/!JS
+		script src="assets/js/modernizr.custom.js"
+		 
+		/!fonts google
+		link href='https://fonts.googleapis.com/css?family=Open+Sans:100,400,300,600,700,800' rel='stylesheet' type='text/css'
+		
+		
+		/!HTML5 shim, for IE6-8 support of HTML5 elements [if lt IE 9]
+		/!Fav and touch icons
+		link href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-144-precomposed.png" rel="apple-touch-icon-precomposed" sizes="144x144"
+		link href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-114-precomposed.png" rel="apple-touch-icon-precomposed" sizes="114x114"
+		link href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-72-precomposed.png" rel="apple-touch-icon-precomposed" sizes="72x72"
+		link href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-57-precomposed.png" rel="apple-touch-icon-precomposed"
+		
+		/!favicon image
+		link href="images/favicon.png" rel="shortcut icon"
+
+	body
+		/!search 
+		.overlay.overlay-simplegenie
+		  button.overlay-close type="button"  Close
+		  .container
+		  	.row
+		  		form
+  					.form-group
+    					input type="search" class="input-simple w-100 searching" placeholder="Search..."
+
+		/!menu iteraction
+		.menu-wrap.mar-0
+			nav.menu
+				.icon-list
+					a href="#" 
+						span Login
+					a href="#" 
+						span Sign Up
+					a href="#" 
+						span Home
+					a href="#" 
+						span Bars & Lounge
+					a href="#" 
+						span Clubs
+					a href="#" 
+						span Article
+					a href=""
+						span Contact Us
+			button#close-button.close-button Close Menu
+
+		nav.navbar.navbar-inverse.navbar-fixed-top
+			.container-bigscreen
+				.navbar-header
+					button.navbar-toggle.collapsed aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" type="button" 
+						span.sr-only Toggle navigation
+						span.icon-bar
+						span.icon-bar
+						span.icon-bar
+					a.navbar-brand href="#"  
+						img src="assets/image/logo.png" alt="Taiwan Nights Logo"
+
+				ul.nav.navbar-nav.menus
+					li
+						a href="#"  City
+					li
+						a href="#"  Near Me
+					li
+						a href="#"
+							i.fa.fa-search id="trigger-overlay"
+					li
+						a 
+							i.fa.fa-bars id="open-button"
+						/ button class="menu-button" id="open-button"
+							| Open Menu
+
+				#navbar.navbar-collapse.collapse
+					.navbar-right
+						li.dropdown.languange
+							a.dropdown-toggle aria-expanded="false" aria-haspopup="true" data-toggle="dropdown" href="#" role="button" 
+								img src="assets/image/en.png" alt="en" width="25"
+								span.caret
+							ul.dropdown-menu
+								li
+									a href="#"
+										img src="assets/image/en.png" alt="en" width="25"
+								li
+									a href="#"  
+										img src="assets/image/taiwan.png" alt="taiwan" width="25"
+
+		.form-search-dark
+			.container-bigscreen.pad-none
+				.container
+					.row
+						.col-md-4
+							form action="#" class="myform"
+								.dropdowns.subject.blue-dropdowns
+									span.selected> ALL TAIWAN
+									input name="subject" type="hidden" value="general" 
+									ul
+										li#general.selected All Taiwan
+										li 
+											a href="" Taipe
+										li
+											a href="" Kaohsiung
+										li 
+											a href="" Taichung
+										li
+											a href="" Tainan
+										li
+											a href="" Keelung
+										li
+											a href="" Hsinchu
+										li
+											a href="" Taoyuan
+										li
+											a href="" Chiayi
+										li
+											a href="" Changhua
+										li
+											a href="" Pingtung
+										li
+											a href="" Yunlin
+										li
+											a href="" Taitung
+										li
+											a href="" Hualien
+										li
+											a href="" Nantou
+										li
+											a href="" Kenting
+
+						.col-md-4
+							form action="#" class="myform"
+								.dropdowns.subject.green-dropdowns
+									span.selected> ALL EVENT CATEGORY
+									input name="subject" type="hidden" value="general" 
+									ul
+										li#general.selected All Event Category
+										li 
+											a href="" Music
+										li
+											a href="" Club
+										li 
+											a href="" Night
+										li
+											a href="" Party
+										li
+											a href="" Electro
+										li
+											a href="" Dub Step
+										li
+											a href="" Taoyuan
+
+						.col-md-4
+							form action="#" class="myform"
+								.dropdowns.subject.evergreen-dropdowns
+									span.selected> ALL MUSIC
+									input name="subject" type="hidden" value="general" 
+									ul
+										li#general.selected All Event Category
+										li 
+											a href="" Music
+										li
+											a href="" Club
+										li 
+											a href="" Night
+										li
+											a href="" Party
+										li
+											a href="" Electro
+										li
+											a href="" Dub Step
+										li
+											a href="" Taoyuan
+
+		.container
+			.row
+				.content-promoter
+					.col-md-12
+						h3 All Promoters
+						p showing 1-20 of 123
+						br
+						h4 TOP PROMOTER
+					.clearfix
+
+					ul.list-venue.mar-t-30
+						li.col-md-4
+							.venue-cover
+								.venue.venue-1.gradient
+									.wrapper-title
+										h3 
+											.top.title-black
+												| Reza Aditya Club & Bar, Taipe 
+
+										h5
+											.title-black 
+												| Selasar Cafe & Resort, Taipe 
+
+						li.col-md-4
+							.venue-cover
+								.venue.venue-1.gradient
+									.wrapper-title
+										h3 
+											.top.title-black
+												| Reza Aditya Club & Bar, Taipe 
+
+										h5
+											.title-black 
+												| Selasar Cafe & Resort, Taipe 
+
+						li.col-md-4
+							.venue-cover
+								.venue.venue-1.gradient
+									.wrapper-title
+										h3 
+											.top.title-black
+												| Reza Aditya Club & Bar, Taipe 
+
+										h5
+											.title-black 
+												| Selasar Cafe & Resort, Taipe 
+
+						li.col-md-4
+							.venue-cover
+								.venue.venue-1.gradient
+									.wrapper-title
+										h3 
+											.top.title-black
+												| Reza Aditya Club & Bar, Taipe 
+
+										h5
+											.title-black 
+												| Selasar Cafe & Resort, Taipe 
+
+						li.col-md-4
+							.venue-cover
+								.venue.venue-1.gradient
+									.wrapper-title
+										h3 
+											.top.title-black
+												| Reza Aditya Club & Bar, Taipe 
+
+										h5
+											.title-black 
+												| Selasar Cafe & Resort, Taipe 
+
+						li.col-md-4
+							.venue-cover
+								.venue.venue-1.gradient
+									.wrapper-title
+										h3 
+											.top.title-black
+												| Reza Aditya Club & Bar, Taipe 
+
+										h5
+											.title-black 
+												| Selasar Cafe & Resort, Taipe 
+
+						li.col-md-4
+							.venue-cover
+								.venue.venue-1.gradient
+									.wrapper-title
+										h3 
+											.top.title-black
+												| Reza Aditya Club & Bar, Taipe 
+
+										h5
+											.title-black 
+												| Selasar Cafe & Resort, Taipe 
+
+						li.col-md-4
+							.venue-cover
+								.venue.venue-1.gradient
+									.wrapper-title
+										h3 
+											.top.title-black
+												| Reza Aditya Club & Bar, Taipe 
+
+										h5
+											.title-black 
+												| Selasar Cafe & Resort, Taipe 
+
+						li.col-md-4
+							.venue-cover
+								.venue.venue-1.gradient
+									.wrapper-title
+										h3 
+											.top.title-black
+												| Reza Aditya Club & Bar, Taipe 
+
+										h5
+											.title-black 
+												| Selasar Cafe & Resort, Taipe 
+
+					.text-center
+						.btn.btn-peneapple.text-center
+							a href="" show all top promoter
+					hr.mar-lr-15
+
+		footer
+			.container
+				.row
+					.col-md-6
+						img src="assets/image/logo-big.png" alt="logo big" 
+					.col-md-6
+						.row
+							.col-md-3
+								h4.grey-col Support
+								ul.list-unstyled
+									li 
+										a href="" Contact
+									li 
+										a href="" Facebook
+									li
+										a href="" twitter
+
+							.col-md-3.col-md-offset-2
+								h4.grey-col The Company
+								ul.list-unstyled
+									li 
+										a href="" About
+									li 
+										a href="" Blog
+
+							.col-md-2.col-md-offset-2
+								h4.grey-col Stuff
+								ul.list-unstyled
+									li
+										a href="" Sign Up
+									li 
+										a href="" Login
+									li
+										a href="" Term & Condition
+
+
+
+
+
+	script src="assets/js/jquery-2.1.4.min.js"		
+	script src="assets/js/classie.js"		    
+	script src="assets/js/main.js" type="text/javascript" 
