@@ -9,6 +9,9 @@ html lang="en"
 		
 		/!styles
 		link href="assets/css/style.css" rel="stylesheet"
+
+		/!JS
+		script src="assets/js/modernizr.custom.js"
 		 
 		/!fonts google
 		link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'
@@ -23,8 +26,20 @@ html lang="en"
 		
 		/!favicon image
 		link href="images/favicon.png" rel="shortcut icon"
+
+
 	
 	body
+		/!search 
+		.overlay.overlay-simplegenie
+		  button.overlay-close type="button"  Close
+		  .container
+		  	.row
+		  		form
+  					.form-group
+    					input type="search" class="input-simple w-100 searching" placeholder="Search..."
+
+		/!menu iteraction
 		.menu-wrap
 			nav.menu
 				.icon-list
@@ -62,7 +77,7 @@ html lang="en"
 						a href="#"  Near Me
 					li
 						a href="#"
-							i.fa.fa-search
+							i.fa.fa-search id="trigger-overlay"
 					li
 						a 
 							i.fa.fa-bars id="open-button"

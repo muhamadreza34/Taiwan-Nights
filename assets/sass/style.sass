@@ -19,6 +19,8 @@
 	+mar-t(40px)
 .languange
 	+mar-t(15px)
+.w-100
+	width: 100% !important
 
 
 /* UI */
@@ -26,7 +28,10 @@
 	+border-l(none)
 	+border-r(none)
 	+border-t(none)
-	+border-b(1px solid #f3f6f8)
+	+border-b(1px solid #293034)
+	color: #00a7ed
+	background: transparent 
+	@extend .w-100
 
 /* dropdown */
 .dropdowns
@@ -84,7 +89,6 @@
 	color: $evergreen
 
 
-/* Menu */
 /* Menu Button */
 .menu-button 
 	position: fixed
@@ -208,3 +212,103 @@
 	transition-timing-function: cubic-bezier(0.7,0,0.3,1)
 	-webkit-transform: translate3d(0,0,0)
 	transform: translate3d(0,0,0)
+
+
+/* Search */
+.overlay
+	position: fixed
+	width: 100%
+	height: 100%
+	top: 0
+	left: 0
+	background: rgba(23, 27, 29, 1)
+	z-index: 99999
+	.overlay-close
+		width: 80px
+		height: 80px
+		position: absolute
+		right: 20px
+		top: 20px
+		overflow: hidden
+		border: none
+		background: url(../image/close.png) no-repeat center center
+		text-indent: 200%
+		color: transparent
+		outline: none
+		z-index: 100
+	nav
+		text-align: center
+		position: relative
+		top: 50%
+		height: 60%
+		-webkit-transform: translateY(-50%)
+		transform: translateY(-50%)
+	ul
+		list-style: none
+		padding: 0
+		margin: 0 auto
+		display: inline-block
+		height: 100%
+		position: relative
+		li
+			display: block
+			height: 20%
+			height: calc(100% / 5)
+			min-height: 54px
+			-webkit-backface-visibility: hidden
+			backface-visibility: hidden
+			a
+				font-size: 54px
+				font-weight: 300
+				display: block
+				color: #fff
+				-webkit-transition: color 0.2s
+				transition: color 0.2s
+				&:hover, &:focus
+					color: #e3fcb1
+
+/* Overlay closing cross */
+.overlay-simplegenie
+	visibility: hidden
+	-webkit-transform: translateY(60%) scale(0)
+	transform: translateY(60%) scale(0)
+	-webkit-transition: -webkit-transform 0.4s, visibility 0s 0.4s
+	transition: transform 0.4s, visibility 0s 0.4s
+	&.open
+		visibility: visible
+		-webkit-transform: translateY(0%) scale(1)
+		transform: translateY(0%) scale(1)
+		-webkit-transition: -webkit-transform 0.4s
+		transition: transform 0.4s
+
+@media screen and (max-height: 30.5em)
+	.overlay
+		nav
+			height: 70%
+			font-size: 34px
+		ul li
+			min-height: 34px
+
+.overlay-simplegenie
+	/* placeholder */
+	*::-webkit-input-placeholder 
+		color: #00a7ed
+	
+	*:-moz-placeholder 
+		/* FF 4-18 */
+		color: #00a7ed
+
+	*::-moz-placeholder 
+		/* FF 19+ */
+		color: #00a7ed
+	
+	*:-ms-input-placeholder 
+		/* IE 10+ */
+		color: #00a7ed
+
+.searching
+	left: 0
+	right: 0
+	margin-top: 30%
+	+pad(15px 0)
+	+fontsize(30px)
