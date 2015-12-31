@@ -16,9 +16,9 @@
 	+pad-l(50px)
 	+pad-r(50px)
 .form-search
-	+mar-t(40px)
+	+mar-t(30px)
 .languange
-	+mar-t(15px)
+	+mar-t(10px)
 .w-100
 	width: 100% !important
 
@@ -312,3 +312,140 @@
 	margin-top: 30%
 	+pad(15px 0)
 	+fontsize(30px)
+
+
+/* listing event*/
+.content-list
+	+mar-t(30px)
+	position: relative
+	left: 0
+	right: 0
+
+	.cover
+		display: block
+		position: relative
+		list-style: none
+		min-height: 490px
+		height: auto
+			
+		.number-1, .number-2, .number-3, .number-4
+			display: block
+			position: relative
+			left: 0px
+			top: 0px
+
+			&:before
+				background-image: -webkit-linear-gradient(135deg,rgba(55,68,75,0.6),#37444b)
+				background-image: -moz-linear-gradient(135deg,rgba(55,68,75,0.6),#37444b)
+				background-image: -o-linear-gradient(135deg,rgba(55,68,75,0.6),#37444b)
+				opacity: 0.7
+				background-image: linear-gradient(135deg,rgba(55,68,75,0.6),#37444b)
+				background: rgba(55,68,75,0.6)
+				position: absolute
+				top: 0px
+				bottom: 0px
+				right: 0px
+				left: 0
+				content: ''
+
+		/* cover */			
+		.number-1
+			background: url(../image/event/1.png)
+			background-size: cover
+			display: block
+			min-height: 450px
+
+		.wrapper-title
+			position: absolute
+			display: inline-block
+			bottom: 15px
+			+mar(15px)
+			h3
+				+fontsize(18px)
+				+fontweight(100 !important)
+				letter-spacing: 0.8px
+				.top, .bottom
+					color: #fff	
+					+pad(5px 10px)
+				.title-blue
+					background: $peter-river
+				.title-purple
+					background: $purple	
+				.title-evergreen
+					background: $evergreen	
+				.title-green
+					background: $peneapple
+
+				.top
+					display: inline-block
+					width: auto
+					margin-bottom: 8px
+				.bottom
+					display: inline
+					width: auto
+
+			h5 
+				+mar-t(7px)
+				+fontsize(13px)
+				+fontweight(100)
+				letter-spacing: 0.5px
+				width: auto
+				display: inline-block
+				color: #fff
+
+
+				.title-gold
+					background: #d3c19d
+					+pad(5px 10px)
+					i
+						color: #80755f
+
+		.date-top
+			+pad(5px 10px)
+			+mar(15px)
+			width: auto
+			color: #fff
+			position: absolute
+			background: #93c5d8
+			.date
+				+fontsize(11px)
+			.day
+				+fontsize(13px)
+				text-transform: uppercase
+
+/* top event list */
+.list-event
+	+mar(0)
+	+pad(0)
+	list-style: none
+
+
+/* normal event list */
+.cover-normal
+	@extend .cover
+	height: 320px !important
+
+	.wrapper-title
+		bottom: -25px !important
+		left: -5px
+	.image-1
+		&:before
+			@extend .number-1:before 
+			
+	.image-1
+		display: block
+		position: relative
+		min-height: 250px
+		background-size: cover
+		background: url(../image/event/4.png)
+
+	h5
+		bottom: 0px
+		+mar-l(-10px)
+
+.title-bottom
+	+fontsize(18px)
+	+mar-t(10px)
+	+fontweight(100)
+	width: 72%
+	line-height: 24px

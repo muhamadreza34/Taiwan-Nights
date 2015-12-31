@@ -4,24 +4,25 @@
 	+pad(0px)
 	position: relative
 	list-style: none
-	min-height: 550px
+	min-height: 620px
 	height: auto
 		
 	.number-1, .number-2, .number-3, .number-4
 		width: 25%
-		height: 550px
+		height: 620px
 		display: block
 		position: relative
+		background-size: 100%
 		left: 0px
 		top: 0px
 		float: left
 		&:before
-			background-image: -webkit-linear-gradient(135deg,rgba(55,68,75,0.6),#37444b)
-			background-image: -moz-linear-gradient(135deg,rgba(55,68,75,0.6),#37444b)
-			background-image: -o-linear-gradient(135deg,rgba(55,68,75,0.6),#37444b)
+			background-image: -webkit-linear-gradient(135deg,rgba(55,68,75,0.85),#37444b)
+			background-image: -moz-linear-gradient(135deg,rgba(55,68,75,0.85),#37444b)
+			background-image: -o-linear-gradient(135deg,rgba(55,68,75,0.85),#37444b)
 			opacity: 0.7
-			background-image: linear-gradient(135deg,rgba(55,68,75,0.6),#37444b)
-			background: rgba(55,68,75,0.6)
+			background-image: linear-gradient(135deg,rgba(55,68,75,0.85),#37444b)
+			background: rgba(55,68,75,0.85)
 			position: absolute
 			top: 0px
 			bottom: 0px
@@ -35,6 +36,8 @@
 		bottom: 40px
 		left: 30px
 		h3
+			+fontweight(100)
+			letter-spacing: 0.2
 			.top, .bottom
 				color: #fff	
 				+pad(5px 10px)
@@ -50,12 +53,14 @@
 			.top
 				display: inline-block
 				width: auto
+				margin-bottom: 8px
 			.bottom
 				display: inline
 				width: auto
 
 		h5 
-			+mar-t(20px)
+			+mar-t(7px)
+			letter-spacing: 0.3
 			width: auto
 			display: inline-block
 			color: #fff
@@ -79,8 +84,13 @@
 
 .number-1
 	background: url(../image/cover/1.png)
-	background-size: 100%
-	display: block
+.number-2
+	background: url(../image/cover/2.png)
+.number-3
+	background: url(../image/cover/3.png)
+.number-4
+	background: url(../image/cover/4.png)
+
 
 .content-home
 	h4
