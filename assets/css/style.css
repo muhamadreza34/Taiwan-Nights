@@ -25,7 +25,7 @@ body {
 
 a {
   color: #aaa;
-  text-decoration: none;
+  text-decoration: none !important;
   transition: ease 0.3s;
   -webkit-transition: ease 0.3s;
   -moz-transition: ease 0.3s;
@@ -7694,14 +7694,15 @@ a {
   padding: 0px;
   position: relative;
   list-style: none;
-  min-height: 620px;
+  min-height: 480px;
   height: auto; }
   .hero-big .number-1, .hero-big .number-2, .hero-big .number-3, .hero-big .number-4 {
     width: 25%;
-    height: 620px;
+    height: 480px;
+    background-repeat: none;
     display: block;
     position: relative;
-    background-size: 100%;
+    background-size: cover;
     left: 0px;
     top: 0px;
     float: left; }
@@ -7777,6 +7778,23 @@ a {
 .content-home h4 {
   margin-top: 50px; }
 
+.link-top h3 {
+  -webkit-transition: width 2s;
+  transition: width 2s; }
+  .link-top h3 .top.title-blue:hover, .link-top h3 .bottom.title-blue:hover {
+    background: #00b9ff; }
+  .link-top h3 .top.title-green:hover, .link-top h3 .bottom.title-green:hover {
+    background: #baf502; }
+  .link-top h3 .top.title-evergreen:hover, .link-top h3 .bottom.title-evergreen:hover {
+    background: #03d592; }
+  .link-top h3 .top.title-purple:hover, .link-top h3 .bottom.title-purple:hover {
+    background: #910eec; }
+
+@media screen and (min-width: 1500px) {
+  .hero-big {
+    min-height: 620px; }
+    .hero-big .number-1, .hero-big .number-2, .hero-big .number-3, .hero-big .number-4 {
+      height: 620px; } }
 /* Helper Class */
 .container-bigscreen {
   padding-left: 50px;
@@ -7800,6 +7818,12 @@ a {
 
 .mar-t-60 {
   margin-top: 60px !important; }
+
+.mar-t-80 {
+  margin-top: 80px !important; }
+
+.mar-t-100 {
+  margin-top: 100px !important; }
 
 .mar-lr-15 {
   margin: 20px 15px 35px 15px; }
@@ -8179,9 +8203,24 @@ a {
     display: block;
     position: relative;
     list-style: none;
-    min-height: 490px;
+    height: 450px;
+    margin-bottom: 40px;
     height: auto;
     /* cover */ }
+    .content-list .cover:hover, .content-list .cover-normal:hover, .content-list .list-blog .blog-cover:hover, .list-blog .content-list .blog-cover:hover, .content-list .list-venue .blog-cover:hover, .list-venue .content-list .blog-cover:hover, .content-list .list-venue .venue-cover:hover, .list-venue .content-list .venue-cover:hover, .content-list .promoter-cover-small:hover {
+      background-image: -webkit-linear-gradient(135deg, rgba(55, 68, 75, 0.6), #37444b);
+      background-image: -moz-linear-gradient(135deg, rgba(55, 68, 75, 0.6), #37444b);
+      background-image: -o-linear-gradient(135deg, rgba(55, 68, 75, 0.6), #37444b);
+      opacity: 0.9;
+      background-image: linear-gradient(135deg, rgba(55, 68, 75, 0.6), #37444b);
+      background: rgba(55, 68, 75, 0.6);
+      position: relative;
+      zoom: 0;
+      top: 0px;
+      bottom: 0px;
+      right: 0px;
+      left: 0;
+      content: ""; }
     .content-list .cover .number-1, .content-list .cover-normal .number-1, .content-list .list-blog .blog-cover .number-1, .list-blog .content-list .blog-cover .number-1, .content-list .list-venue .blog-cover .number-1, .list-venue .content-list .blog-cover .number-1, .content-list .list-venue .venue-cover .number-1, .list-venue .content-list .venue-cover .number-1, .content-list .promoter-cover-small .number-1, .content-list .cover .number-2, .content-list .cover-normal .number-2, .content-list .list-blog .blog-cover .number-2, .list-blog .content-list .blog-cover .number-2, .content-list .list-venue .blog-cover .number-2, .list-venue .content-list .blog-cover .number-2, .content-list .list-venue .venue-cover .number-2, .list-venue .content-list .venue-cover .number-2, .content-list .promoter-cover-small .number-2, .content-list .cover .number-3, .content-list .cover-normal .number-3, .content-list .list-blog .blog-cover .number-3, .list-blog .content-list .blog-cover .number-3, .content-list .list-venue .blog-cover .number-3, .list-venue .content-list .blog-cover .number-3, .content-list .list-venue .venue-cover .number-3, .list-venue .content-list .venue-cover .number-3, .content-list .promoter-cover-small .number-3, .content-list .cover .number-4, .content-list .cover-normal .number-4, .content-list .list-blog .blog-cover .number-4, .list-blog .content-list .blog-cover .number-4, .content-list .list-venue .blog-cover .number-4, .list-venue .content-list .blog-cover .number-4, .content-list .list-venue .venue-cover .number-4, .list-venue .content-list .venue-cover .number-4, .content-list .promoter-cover-small .number-4 {
       display: block;
       position: relative;
@@ -8266,7 +8305,7 @@ a {
 
 /* normal event list */
 .cover-normal, .list-blog .blog-cover, .list-venue .blog-cover, .list-venue .venue-cover, .promoter-cover-small {
-  min-height: 370px !important; }
+  height: 220px !important; }
   .cover-normal .wrapper-title, .list-blog .blog-cover .wrapper-title, .list-venue .blog-cover .wrapper-title, .list-venue .venue-cover .wrapper-title, .promoter-cover-small .wrapper-title {
     bottom: -25px !important;
     left: -5px; }
@@ -8290,20 +8329,23 @@ a {
 /* blog */
 .list-blog, .list-venue {
   margin-top: 20px; }
-  .list-blog .blog-cover .image-bl-1, .list-venue .blog-cover .image-bl-1, .list-venue .venue-cover .image-bl-1 {
-    display: block;
-    position: relative;
-    background-size: cover;
-    background: url(../image/blog/1.png); }
-  .list-blog .blog-cover .date, .list-venue .blog-cover .date, .list-venue .venue-cover .date {
-    font-size: 12px;
-    color: #00adee; }
+  .list-blog .blog-cover, .list-venue .blog-cover, .list-venue .venue-cover {
+    margin-bottom: 120px; }
+    .list-blog .blog-cover .image-bl-1, .list-venue .blog-cover .image-bl-1, .list-venue .venue-cover .image-bl-1 {
+      display: block;
+      position: relative;
+      background-size: cover;
+      background: url(../image/blog/1.png); }
+    .list-blog .blog-cover .date, .list-venue .blog-cover .date, .list-venue .venue-cover .date {
+      font-size: 12px;
+      color: #00adee; }
 
 /* Venue */
 .list-venue {
   margin-top: 130px; }
   .list-venue .venue-cover {
-    min-height: 310px !important; }
+    margin-bottom: 90px;
+    min-height: 210px !important; }
     .list-venue .venue-cover .venue {
       height: 280px; }
       .list-venue .venue-cover .venue .open {

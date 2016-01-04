@@ -29,6 +29,12 @@
 	+mar-t(30px !important)
 .mar-t-60
 	+mar-t(60px !important)
+.mar-t-80
+	+mar-t(80px !important)
+
+.mar-t-100
+	+mar-t(100px !important)
+
 .mar-lr-15
 	+mar(20px 15px 35px 15px)
 
@@ -419,8 +425,23 @@
 		display: block
 		position: relative
 		list-style: none
-		min-height: 490px
+		height: 450px
+		margin-bottom: 40px
 		height: auto
+		&:hover
+			background-image: -webkit-linear-gradient(135deg,rgba(55,68,75,0.6),#37444b)
+			background-image: -moz-linear-gradient(135deg,rgba(55,68,75,0.6),#37444b)
+			background-image: -o-linear-gradient(135deg,rgba(55,68,75,0.6),#37444b)
+			opacity: 0.9
+			background-image: linear-gradient(135deg,rgba(55,68,75,0.6),#37444b)
+			background: rgba(55,68,75,0.6)
+			position: relative
+			zoom: 0
+			top: 0px
+			bottom: 0px
+			right: 0px
+			left: 0
+			content: ''
 			
 		.number-1, .number-2, .number-3, .number-4
 			display: block
@@ -517,7 +538,7 @@
 /* normal event list */
 .cover-normal
 	@extend .cover
-	min-height: 370px !important
+	height: 220px !important
 
 	.wrapper-title
 		bottom: -25px !important
@@ -551,6 +572,7 @@
 	.blog-cover
 		@extend .cover
 		@extend .cover-normal
+		+mar-b(120px)
 		.image-bl-1
 			@extend .image-1
 
@@ -570,7 +592,8 @@
 	@extend .list-blog
 	.venue-cover
 		@extend .blog-cover
-		min-height: 310px !important
+		+mar-b(90px)
+		min-height: 210px !important
 		.venue
 			@extend .image-1
 			height: 280px

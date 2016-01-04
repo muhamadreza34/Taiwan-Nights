@@ -4,15 +4,16 @@
 	+pad(0px)
 	position: relative
 	list-style: none
-	min-height: 620px
+	min-height: 480px
 	height: auto
 		
 	.number-1, .number-2, .number-3, .number-4
 		width: 25%
-		height: 620px
+		height: 480px
+		background-repeat: none
 		display: block
 		position: relative
-		background-size: 100%
+		background-size: cover
 		left: 0px
 		top: 0px
 		float: left
@@ -95,3 +96,26 @@
 .content-home
 	h4
 		+mar-t(50px)
+
+.link-top
+	h3
+		-webkit-transition: width 2s 
+		transition: width 2s
+		.top.title-blue, .bottom.title-blue
+			&:hover
+				background: #00b9ff
+		.top.title-green, .bottom.title-green
+			&:hover
+				background: #baf502
+		.top.title-evergreen, .bottom.title-evergreen
+			&:hover
+				background: #03d592
+		.top.title-purple, .bottom.title-purple
+			&:hover
+				background: #910eec
+
+@media screen and (min-width: 1500px)
+	.hero-big
+		min-height: 620px
+		.number-1, .number-2, .number-3, .number-4
+			height: 620px
