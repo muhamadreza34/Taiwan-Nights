@@ -7822,13 +7822,16 @@ a {
 .mar-0 {
   margin: 0px !important; }
 
+.mar-tm-10 {
+  margin-top: -10px !important; }
+
 .mar-t-30 {
   margin-top: 30px !important; }
 
 .mar-t-60 {
   margin-top: 60px !important; }
 
-.mar-t-80 {
+.mar-t-80, .prefix-bor {
   margin-top: 80px !important; }
 
 .mar-t-100 {
@@ -7836,6 +7839,9 @@ a {
 
 .mar-lr-15 {
   margin: 20px 15px 35px 15px; }
+
+.prefix-bor {
+  margin-bottom: 50px !important; }
 
 .pad-none {
   padding: 0px; }
@@ -8213,7 +8219,7 @@ a {
     position: relative;
     list-style: none;
     height: 450px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     height: auto;
     /* cover */ }
     .content-list .cover:hover, .content-list .cover-normal:hover, .content-list .list-blog .blog-cover:hover, .list-blog .content-list .blog-cover:hover, .content-list .list-venue .blog-cover:hover, .list-venue .content-list .blog-cover:hover, .content-list .list-venue .venue-cover:hover, .list-venue .content-list .venue-cover:hover, .content-list .promoter-cover-small:hover {

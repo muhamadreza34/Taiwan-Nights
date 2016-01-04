@@ -26,6 +26,8 @@
 
 .mar-0
 	+mar(0px !important)
+.mar-tm-10
+	+mar-t(-10px !important)	
 .mar-t-30
 	+mar-t(30px !important)
 .mar-t-60
@@ -39,6 +41,9 @@
 .mar-lr-15
 	+mar(20px 15px 35px 15px)
 
+.prefix-bor
+	@extend .mar-t-80
+	+mar-b(50px !important)
 
 .pad-none
 	+pad(0px)
@@ -427,7 +432,7 @@
 		position: relative
 		list-style: none
 		height: 450px
-		margin-bottom: 40px
+		margin-bottom: 30px
 		height: auto
 		&:hover
 			background-image: -webkit-linear-gradient(135deg,rgba(55,68,75,0.6),#37444b)
