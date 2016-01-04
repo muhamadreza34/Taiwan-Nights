@@ -27,16 +27,50 @@
 	+mar(0px !important)
 .mar-t-30
 	+mar-t(30px !important)
+.mar-t-60
+	+mar-t(60px !important)
 .mar-lr-15
 	+mar(20px 15px 35px 15px)
 
 
 .pad-none
 	+pad(0px)
-
+.gradient
+	position: relative 
+	&:before
+		background-image: -webkit-linear-gradient(135deg,rgba(55,68,75,0.6),#37444b)
+		background-image: -moz-linear-gradient(135deg,rgba(55,68,75,0.6),#37444b)
+		background-image: -o-linear-gradient(135deg,rgba(55,68,75,0.6),#37444b)
+		opacity: 0.7
+		background-image: linear-gradient(135deg,rgba(55,68,75,0.6),#37444b)
+		background: rgba(55,68,75,0.6)
+		position: absolute
+		top: 0px
+		bottom: 0px
+		right: 0px
+		left: 0
+		content: ''
 
 
 /* UI */
+#pagination
+	+mar-t(60px)
+	.next, .prev
+		border-radius: 50%
+		border: 2px solid #f0f0f0
+		padding: 5px 12px
+		background: rgba(0, 0, 0, 0)
+	.next
+		+mar-r(15px)
+	.prev
+		+mar-l(15px)
+	.current
+		color: #5c676c
+	a 
+		+pad(0 6px)
+		color: #87989f
+
+
 .btn-peneapple
 	+border(1px solid #e7f0f5)
 	+pad(15px 70px)
@@ -500,22 +534,6 @@
 			background-size: cover
 			background: url(../image/blog/1.png)
 
-		.gradient
-			position: relative 
-			&:before
-				background-image: -webkit-linear-gradient(135deg,rgba(55,68,75,0.6),#37444b)
-				background-image: -moz-linear-gradient(135deg,rgba(55,68,75,0.6),#37444b)
-				background-image: -o-linear-gradient(135deg,rgba(55,68,75,0.6),#37444b)
-				opacity: 0.7
-				background-image: linear-gradient(135deg,rgba(55,68,75,0.6),#37444b)
-				background: rgba(55,68,75,0.6)
-				position: absolute
-				top: 0px
-				bottom: 0px
-				right: 0px
-				left: 0
-				content: ''
-
 		.date
 			+fontsize(12px)
 			color: $peter-river
@@ -586,8 +604,24 @@
 
 
 /* promoter */
-.content-promoter
-	@extend .content-list
+.promoter-cover-small
+	@extend .cover-normal
+	min-height: 320px !important
+	.upcoming
+		color: $peter-river
+		+mar-t(-8px)
+.image-pr
+	display: block
+	position: relative
+	background-size: cover !important
+
+	min-height: 220px
+	background-repeat: none
+.pr-1
+	background: url(../image/promoter/1.png)
+
+	
+
 
 footer
 	+mar-t(120px)

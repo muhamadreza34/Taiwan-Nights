@@ -161,6 +161,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/image\/promoter\/1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 123609,
+		"inputAbbreviatedPath": "\/assets\/image\/promoter\/1.png",
+		"outputAbbreviatedPath": "\/assets\/image\/promoter\/1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/image\/taiwan.png": {
 		"fileType": 32768,
 		"ignore": 0,
