@@ -7795,6 +7795,15 @@ a {
     min-height: 620px; }
     .hero-big .number-1, .hero-big .number-2, .hero-big .number-3, .hero-big .number-4 {
       height: 620px; } }
+.date-tab {
+  background: #1f2427;
+  height: 120px;
+  width: 100%; }
+
+#map {
+  height: 500px;
+  width: 100%; }
+
 /* Helper Class */
 .container-bigscreen {
   padding-left: 50px;

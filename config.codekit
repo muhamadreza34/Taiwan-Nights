@@ -1433,6 +1433,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/assets\/sass\/event-index.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/sass\/event-index.sass",
+		"outputAbbreviatedPath": "\/assets\/css\/event-index.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
 	"\/assets\/sass\/font-awesome\/_animated.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -1705,6 +1721,29 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
+	"\/event-index.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/event-index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/event-index.slim": {
+		"compileOnly": 0,
+		"fileType": 1024,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/event-index.slim",
+		"logicless": 0,
+		"outputAbbreviatedPath": "\/event-index.html",
+		"outputFormat": 0,
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"railsCompatible": 0
+		},
 	"\/index.html": {
 		"fileType": 8192,
 		"ignore": 1,
@@ -1748,7 +1787,7 @@
 		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"railsCompatible": 0
 		}
 	},
