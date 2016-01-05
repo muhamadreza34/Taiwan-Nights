@@ -8014,10 +8014,14 @@ a {
   float: left;
   width: 140px;
   height: 100px; }
-.search-result .text-detail {
+.search-result a > .text-detail {
   margin-left: 20px;
   float: left; }
-  .search-result .text-detail p {
+  .search-result a > .text-detail h3 {
+    font-size: 24px;
+    color: #525C61; }
+  .search-result a > .text-detail p {
+    font-size: 14px;
     color: #4C4C4C; }
 
 #users .list {
@@ -8027,7 +8031,8 @@ a {
     height: 100px !important;
     background: #1F2325;
     width: 100% !important;
-    margin-bottom: 3px; }
+    margin-bottom: 3px;
+    float: left; }
 
 .btn-peneapple {
   border: 1px solid #e7f0f5;

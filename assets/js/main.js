@@ -112,7 +112,7 @@ $(document).ready(function(){
 
 	/*list js */
 	var options = {
-  valueNames: [ 'name', 'born' ]
+  valueNames: [ 'name']
 	};
 
 	var userList = new List('users', options);
