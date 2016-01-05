@@ -22,3 +22,23 @@ ul.menus
 a
 	+fontsize(15px)
 	color: #4b5053
+
+
+/* tab */
+.nav-tabs
+	border-bottom: none
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus
+	+border-l(0)
+	+border-r(0)
+	+border-b(0)
+	border-radius: 0
+	border-top: 5px solid #00a7ed
+	background: transparent
+.nav-tabs > li > a
+	+pad-t(25px)
+	+border-t(5px solid transparent)
+.nav-tabs > li > a:hover 
+	border-color: transparent
+.nav > li > a:hover, .nav > li > a:focus
+	color: #e5e5e5
+	background: transparent
