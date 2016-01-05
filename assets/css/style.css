@@ -7835,7 +7835,10 @@ a {
   width: 100%;
   text-align: center; }
   .date-tab .list-month {
-    display: block; }
+    display: block;
+    /* Let's get this party started */
+    /* Track */
+    /* Handle */ }
     .date-tab .list-month .month, .date-tab .list-month .month a {
       font-size: 46px;
       margin-top: 40px;
@@ -7872,6 +7875,19 @@ a {
       opacity: 0.6; }
       .date-tab .list-month .more:hover {
         opacity: 1; }
+    .date-tab .list-month ::-webkit-scrollbar {
+      width: 12px; }
+    .date-tab .list-month ::-webkit-scrollbar-track {
+      -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+      -webkit-border-radius: 10px;
+      border-radius: 10px; }
+    .date-tab .list-month ::-webkit-scrollbar-thumb {
+      -webkit-border-radius: 10px;
+      border-radius: 10px;
+      background: rgba(90, 92, 93, 0.8);
+      -webkit-box-shadow: inset 0 0 6px rgba(90, 92, 93, 0.8); }
+    .date-tab .list-month ::-webkit-scrollbar-thumb:window-inactive {
+      background: rgba(255, 0, 0, 0.4); }
 
 #map {
   height: 500px;
