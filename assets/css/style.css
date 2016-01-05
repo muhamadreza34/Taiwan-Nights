@@ -8017,6 +8017,8 @@ a {
 .search-result .text-detail {
   margin-left: 20px;
   float: left; }
+  .search-result .text-detail p {
+    color: #4C4C4C; }
 
 #users .list {
   width: 100% !important; }
