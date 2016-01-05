@@ -205,6 +205,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/image\/venue\/2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 236830,
+		"inputAbbreviatedPath": "\/assets\/image\/venue\/2.jpg",
+		"outputAbbreviatedPath": "\/assets\/image\/venue\/2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/image\/venue\/3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 548910,
+		"inputAbbreviatedPath": "\/assets\/image\/venue\/3.jpg",
+		"outputAbbreviatedPath": "\/assets\/image\/venue\/3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/image\/venue\/4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 80686,
+		"inputAbbreviatedPath": "\/assets\/image\/venue\/4.jpg",
+		"outputAbbreviatedPath": "\/assets\/image\/venue\/4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/image\/venue\/5.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 214617,
+		"inputAbbreviatedPath": "\/assets\/image\/venue\/5.jpg",
+		"outputAbbreviatedPath": "\/assets\/image\/venue\/5.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/js\/bootstrap.min.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -233,6 +277,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/js\/jquery-2.1.4.min.js",
 		"outputAbbreviatedPath": "\/assets\/js\/min\/jquery-2.1.4.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/assets\/js\/list.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/js\/list.min.js",
+		"outputAbbreviatedPath": "\/assets\/js\/min\/list.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,

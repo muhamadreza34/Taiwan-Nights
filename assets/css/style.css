@@ -7869,9 +7869,6 @@ a {
   padding-left: 50px;
   padding-right: 50px; }
 
-.form-search {
-  margin-top: 30px; }
-
 .languange {
   margin-top: 10px;
   list-style: none; }
@@ -7948,6 +7945,87 @@ a {
   #pagination a {
     padding: 0 6px;
     color: #87989f; }
+
+/* form */
+.form-search {
+  margin-top: 30px; }
+
+.sort {
+  padding: 8px 30px;
+  border-radius: 6px;
+  border: none;
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  background-color: #28a8e0;
+  height: 30px; }
+
+.sort:hover {
+  text-decoration: none;
+  background-color: #1b8aba; }
+
+.sort:focus {
+  outline: none; }
+
+.sort:after {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  content: "";
+  position: relative;
+  top: -10px;
+  right: -5px; }
+
+.sort.asc:after {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #fff;
+  content: "";
+  position: relative;
+  top: 13px;
+  right: -5px; }
+
+.sort.desc:after {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid #fff;
+  content: "";
+  position: relative;
+  top: -10px;
+  right: -5px; }
+
+.searching {
+  left: 0;
+  right: 0;
+  margin-top: 40px;
+  padding: 15px 0;
+  font-size: 30px; }
+
+.list-search {
+  width: 80px; }
+
+.search-result span img {
+  float: left;
+  width: 140px;
+  height: 100px; }
+.search-result .text-detail {
+  margin-left: 20px;
+  float: left; }
+
+#users .list {
+  width: 100% !important; }
+  #users .list li {
+    border-bottom: 1px solid #212629;
+    height: 100px !important;
+    background: #1F2325;
+    width: 100% !important;
+    margin-bottom: 3px; }
 
 .btn-peneapple {
   border: 1px solid #e7f0f5;
@@ -8266,13 +8344,6 @@ a {
   .overlay-simplegenie *:-ms-input-placeholder {
     /* IE 10+ */
     color: #00a7ed; }
-
-.searching {
-  left: 0;
-  right: 0;
-  margin-top: 30%;
-  padding: 15px 0;
-  font-size: 30px; }
 
 /* listing event */
 .content-list {
