@@ -117,12 +117,6 @@ $(document).ready(function(){
 
 	var userList = new List('users', options);
 
-	/*  */
-	$("#content-6").mCustomScrollbar({
-		axis:"x",
-		theme:"light-3",
-		advanced:{autoExpandHorizontalScroll:true}
-	});
 
 })();
 
