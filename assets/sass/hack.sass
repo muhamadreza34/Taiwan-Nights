@@ -27,6 +27,11 @@ a
 /* tab */
 .nav-tabs
 	border-bottom: none
+	padding-bottom: 20px
+	overflow-x: auto
+	white-space: nowrap
+	-webkit-overflow-scrolling: touch
+	overflow: scroll
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus
 	+border-l(0)
 	+border-r(0)
@@ -39,6 +44,11 @@ a
 	+border-t(5px solid transparent)
 .nav-tabs > li > a:hover 
 	border-color: transparent
+.nav-tabs > li
+	display: inline-block !important
+	float: none
 .nav > li > a:hover, .nav > li > a:focus
 	color: #e5e5e5
 	background: transparent
+.nav-li > a
+	display: inline-block

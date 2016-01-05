@@ -282,6 +282,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/assets\/js\/jquery.mCustomScrollbar.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/js\/jquery.mCustomScrollbar.js",
+		"outputAbbreviatedPath": "\/assets\/js\/min\/jquery.mCustomScrollbar-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/assets\/js\/list.min.js": {
 		"fileType": 64,
 		"ignore": 0,

@@ -5900,7 +5900,12 @@ a {
 
 /* tab */
 .nav-tabs {
-  border-bottom: none; }
+  border-bottom: none;
+  padding-bottom: 20px;
+  overflow-x: auto;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+  overflow: scroll; }
 
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
   border-left: 0;
@@ -5917,9 +5922,16 @@ a {
 .nav-tabs > li > a:hover {
   border-color: transparent; }
 
+.nav-tabs > li {
+  display: inline-block !important;
+  float: none; }
+
 .nav > li > a:hover, .nav > li > a:focus {
   color: #e5e5e5;
   background: transparent; }
+
+.nav-li > a {
+  display: inline-block; }
 
 /*!
  *  Font Awesome 4.3.0 by @davegandy - http://fontawesome.io - @fontawesome
@@ -7825,12 +7837,14 @@ a {
   text-align: center; }
   .date-tab .list-month {
     display: block; }
-    .date-tab .list-month .month {
+    .date-tab .list-month .month, .date-tab .list-month .month a {
       font-size: 46px;
       margin-top: 40px;
       float: left;
       color: #4b5053; }
-      .date-tab .list-month .month:nth-child(1) {
+      .date-tab .list-month .month a {
+        margin-top: 0px !important; }
+      .date-tab .list-month .month:nth-child(1), .date-tab .list-month .month a:nth-child(1) {
         margin-right: 0; }
     .date-tab .list-month .week {
       font-size: 20px;
