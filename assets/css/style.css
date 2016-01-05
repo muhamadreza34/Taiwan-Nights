@@ -5904,8 +5904,7 @@ a {
   padding-bottom: 20px;
   overflow-x: auto;
   white-space: nowrap;
-  -webkit-overflow-scrolling: touch;
-  overflow: scroll; }
+  -webkit-overflow-scrolling: touch; }
 
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
   border-left: 0;
@@ -7832,7 +7831,7 @@ a {
       height: 620px; } }
 .date-tab {
   background: #1f2427;
-  height: 150px;
+  height: 163px;
   width: 100%;
   text-align: center; }
   .date-tab .list-month {
