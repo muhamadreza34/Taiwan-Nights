@@ -179,16 +179,24 @@
 		margin-bottom: 3px
 		float: left
 
+
+/* button */
 .btn-peneapple
 	+border(1px solid #e7f0f5)
 	+pad(15px 70px)
 	letter-spacing: 0.3px
 	width: auto
 	text-transform: uppercase
-	a
-		color: $peneapple
-		+fontsize(12px)
-		+fontweight(600)
+	color: $peneapple
+	+fontsize(12px)
+	+fontweight(600)
+	&:hover
+		color: #fff
+.hvr-sweep-to-right2
+	&:before
+		background: $peneapple !important
+	@extend .hvr-sweep-to-right
+		
 
 .input-simple
 	+border-l(none)

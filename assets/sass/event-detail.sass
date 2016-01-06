@@ -60,8 +60,8 @@
 		background: $peter-river
 		color: #fff
 
-/* Shutter In Horizontal */
-.hvr-shutter-in-horizontal 
+//* Sweep To Right */
+.hvr-sweep-to-right 
 	display: inline-block
 	vertical-align: middle
 	-webkit-transform: translateZ(0)
@@ -71,25 +71,24 @@
 	backface-visibility: hidden
 	-moz-osx-font-smoothing: grayscale
 	position: relative
-	background: transparent
 	-webkit-transition-property: color
 	transition-property: color
 	-webkit-transition-duration: 0.3s
 	transition-duration: 0.3s
 
-.hvr-shutter-in-horizontal:before 
+.hvr-sweep-to-right:before 
 	content: ""
 	position: absolute
 	z-index: -1
 	top: 0
-	bottom: 0
 	left: 0
 	right: 0
-	background: #171b1d
-	-webkit-transform: scaleX(1)
-	transform: scaleX(1)
-	-webkit-transform-origin: 50%
-	transform-origin: 50%
+	bottom: 0
+	background: #2098d1
+	-webkit-transform: scaleX(0)
+	transform: scaleX(0)
+	-webkit-transform-origin: 0 50%
+	transform-origin: 0 50%
 	-webkit-transition-property: transform
 	transition-property: transform
 	-webkit-transition-duration: 0.3s
@@ -97,9 +96,11 @@
 	-webkit-transition-timing-function: ease-out
 	transition-timing-function: ease-out
 
-.hvr-shutter-in-horizontal:hover, .hvr-shutter-in-horizontal:focus, .hvr-shutter-in-horizontal:active 
+.hvr-sweep-to-right:hover, .hvr-sweep-to-right:focus, .hvr-sweep-to-right:active 
 	color: white
 
-.hvr-shutter-in-horizontal:hover:before, .hvr-shutter-in-horizontal:focus:before, .hvr-shutter-in-horizontal:active:before 
-	-webkit-transform: scaleX(0)
-	transform: scaleX(0)
+.hvr-sweep-to-right:hover:before, .hvr-sweep-to-right:focus:before, .hvr-sweep-to-right:active:before 
+	-webkit-transform: scaleX(1)
+	transform: scaleX(1)
+
+
