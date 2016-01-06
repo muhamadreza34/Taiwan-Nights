@@ -2,6 +2,7 @@
 /*Project Name: Taiwan Nights
  *Designer: Muhamad Reza Adityawarman
  *Date : December, 29 2015  */
+@import url(magnific-popup.css);
 *,
 *:after,
 *:before {
@@ -7894,7 +7895,7 @@ a {
   width: 100%; }
 
 .event-detail-top {
-  padding: 20px 0 30px 0; }
+  padding: 20px 0 60px 0 !important; }
   .event-detail-top .info-event {
     padding: 50px 0; }
   .event-detail-top img.cover-image {
@@ -7938,6 +7939,12 @@ a {
       font-size: 11px;
       font-weight: 700;
       color: #a1a1a2; }
+
+.popup-gallery {
+  padding-bottom: 30px; }
+  .popup-gallery img {
+    width: 20%;
+    height: 19%; }
 
 .btn-big {
   padding: 15px 10px;
@@ -7991,6 +7998,44 @@ a {
 .hvr-sweep-to-right:hover:before, .hvr-sweep-to-right2:hover:before, .hvr-sweep-to-right:focus:before, .hvr-sweep-to-right2:focus:before, .hvr-sweep-to-right:active:before, .hvr-sweep-to-right2:active:before {
   -webkit-transform: scaleX(1);
   transform: scaleX(1); }
+
+.content-text {
+  display: inline-block;
+  margin-top: 40px;
+  padding: 40px 0; }
+  .content-text .share-social ul {
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+    list-style: none; }
+    .content-text .share-social ul li {
+      font-size: 20px;
+      width: 60px;
+      height: 50px;
+      display: block;
+      float: left;
+      text-align: center;
+      line-height: 20px; }
+      .content-text .share-social ul li i {
+        color: #fff;
+        line-height: 50px; }
+      .content-text .share-social ul li:hover {
+        opacity: 0.8; }
+    .content-text .share-social ul .fb {
+      background: #3b5997; }
+    .content-text .share-social ul .tw {
+      background: #2ba9e1; }
+    .content-text .share-social ul .gp {
+      background: #e1533d; }
+    .content-text .share-social ul .ml {
+      background: #999999; }
+  .content-text p {
+    font-size: 15px;
+    font-weight: 100;
+    padding-bottom: 10px;
+    line-height: 30px; }
+  .content-text .left-side {
+    padding-right: 70px !important; }
 
 /* Helper Class */
 .container-bigscreen {

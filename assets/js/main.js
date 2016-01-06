@@ -34,6 +34,24 @@ $(document).ready(function(){
 			$(this).parent('ul').siblings('input').val(sid);
 		});
 
+	/* pop up */
+	$('.popup-gallery').magnificPopup({
+	  delegate: 'a',
+	  type: 'image',
+	  tLoading: 'Loading image #%curr%...',
+	  mainClass: 'mfp-img-mobile',
+	  gallery: {
+	    enabled: true,
+	    navigateByImgClick: true,
+	    preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+	  },
+	  image: {
+	    tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+	    titleSrc: function(item) {
+	      return item.el.attr('title') + '<small>by Marsel Van Oosten</small>';
+	    }
+	  }
+	});
 
 
   // When the window has finished loading create our google map below
@@ -119,8 +137,11 @@ $(document).ready(function(){
 
 	var userList = new List('users', options);
 
+})(jQuery);
 
-})();
+
+
+
 
 
 /* Search */
