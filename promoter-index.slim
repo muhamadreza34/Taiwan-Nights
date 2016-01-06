@@ -30,12 +30,49 @@ html lang="en"
 	body
 		/!search 
 		.overlay.overlay-simplegenie
-		  button.overlay-close type="button"  Close
-		  .container
-		  	.row
-		  		form
-  					.form-group
-    					input type="search" class="input-simple w-100 searching" placeholder="Search..."
+			button.overlay-close type="button"  Close
+			.container
+				.row
+					#users
+						form
+							.form-group
+								input type="search" class="input-simple w-100 searching search" placeholder="Search..." 
+						ul.list.mar-t-80
+							li.search-result
+								span
+									img src="assets/image/venue/2.jpg" alt="venue" 
+								a href=""
+									.text-detail
+										h3.name Omni Venue
+										p Open Today
+							li.search-result
+								span
+									img src="assets/image/venue/3.jpg" alt="venue" 
+								a href=""
+									.text-detail
+										h3.name Jonny Stromberg
+										p Open Today
+							li.search-result
+								span
+									img src="assets/image/venue/4.jpg" alt="venue" 
+								a href=""
+									.text-detail
+										h3.name Kopi Item
+										p Close Today
+							li.search-result
+								span
+									img src="assets/image/venue/5.jpg" alt="venue" 
+								a href=""
+									.text-detail
+										h3.name Selasar Sunaryo Art Venue
+										p Open Today
+							li.search-result
+								span
+									img src="assets/image/venue/2.jpg" alt="venue" 
+								a href=""
+									.text-detail
+										h3.name Omni Venue
+										p Close Today
 
 		/!menu iteraction
 		.menu-wrap
@@ -445,6 +482,8 @@ html lang="en"
 
 
 
-	script src="assets/js/jquery-2.1.4.min.js"		
-	script src="assets/js/classie.js"		    
+	script src="assets/js/jquery-2.1.4.min.js" type="text/javascript"		
+	script src="assets/js/classie.js" type="text/javascript"
+	script type="text/javascript" src="assets/js/bootstrap.min.js"
+	script src="assets/js/list.min.js" type="text/javascript"		    
 	script src="assets/js/main.js" type="text/javascript" 
