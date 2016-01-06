@@ -54,7 +54,14 @@ $(document).ready(function(){
 	});
 
 
-  // When the window has finished loading create our google map below
+	/* Owl Carousel */
+ 	$("#owl-carousel").owlCarousel({
+    items : 3,
+    itemsDesktop : [1199,3],
+    itemsDesktopSmall : [979,3]
+	});
+
+  // MAP
   google.maps.event.addDomListener(window, 'load', init);
 
   function init() {
