@@ -63,6 +63,11 @@ $(document).ready(function(){
       var mapOptions = {
           // How zoomed in you want the map to start at (always required)
           zoom: 11,
+          scrollwheel: false,
+			    navigationControl: false,
+			    mapTypeControl: false,
+			    scaleControl: false,
+			    draggable: false,
 
           // The latitude and longitude to center the map (always required)
           center: new google.maps.LatLng(25.035433, 121.566295), // New York
