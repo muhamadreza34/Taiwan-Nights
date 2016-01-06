@@ -8039,6 +8039,7 @@ a {
 .related-event {
   border-top: 1px solid #e7e7e7;
   margin-top: 120px;
+  padding-top: 40px;
   width: 100%; }
 
 #owl-demo .item {
@@ -8783,6 +8784,8 @@ footer {
     font-weight: 700;
     margin-bottom: 30px; }
   footer a {
-    color: #526168;
+    color: #70848E;
     font-size: 14px;
     line-height: 32px; }
+    footer a:hover {
+      color: #fff; }
