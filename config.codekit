@@ -194,6 +194,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/image\/user-small.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 189972,
+		"inputAbbreviatedPath": "\/assets\/image\/user-small.png",
+		"outputAbbreviatedPath": "\/assets\/image\/user-small.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/image\/venue\/1.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1521,6 +1532,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/assets\/sass\/event-detail.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/sass\/event-detail.sass",
+		"outputAbbreviatedPath": "\/assets\/css\/event-detail.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
 	"\/assets\/sass\/event-index.sass": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -1808,6 +1835,29 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": false
+		},
+	"\/event-detail.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/event-detail.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/event-detail.slim": {
+		"compileOnly": 0,
+		"fileType": 1024,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/event-detail.slim",
+		"logicless": 0,
+		"outputAbbreviatedPath": "\/event-detail.html",
+		"outputFormat": 0,
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"railsCompatible": 0
 		},
 	"\/event-index.html": {
 		"fileType": 8192,
