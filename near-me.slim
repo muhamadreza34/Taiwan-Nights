@@ -135,7 +135,27 @@ html lang="en"
 										img src="assets/image/taiwan.png" alt="taiwan" width="25"
 										span Taiwan
 
-		.form-search-dark
+
+		/! Nav tabs
+		ul.nav.nav-tabs.mar-t-100.tab-near role="tablist"
+			.container
+				.row 
+				  li.col-md-6.active role="presentation" 
+				    a.color-blue aria-controls="home" data-toggle="tab" href="#home" role="tab"  
+				    	span Homes
+				  li.col-md-6 role="presentation" 
+				    a aria-controls="profile" data-toggle="tab" href="#profile" role="tab"  Profile
+				  
+	
+		/! Tab panes
+		/ .tab-content
+		/   #home.tab-pane.active role="tabpanel"  ...
+		/   #profile.tab-pane role="tabpanel"  ...
+		/   #messages.tab-pane role="tabpanel"  ...
+		/   #settings.tab-pane role="tabpanel"  ...
+
+
+		.form-search-dark.mar-0
 			.container-bigscreen.pad-none
 				.container
 					.row
@@ -180,28 +200,6 @@ html lang="en"
 						.col-md-4
 							form action="#" class="myform"
 								.dropdowns.subject.green-dropdowns
-									span.selected> ALL EVENT CATEGORY
-									input name="subject" type="hidden" value="general" 
-									ul
-										li#general.selected All Event Category
-										li 
-											a href="" Music
-										li
-											a href="" Club
-										li 
-											a href="" Night
-										li
-											a href="" Party
-										li
-											a href="" Electro
-										li
-											a href="" Dub Step
-										li
-											a href="" Taoyuan
-
-						.col-md-4
-							form action="#" class="myform"
-								.dropdowns.subject.evergreen-dropdowns
 									span.selected> ALL MUSIC
 									input name="subject" type="hidden" value="general" 
 									ul
@@ -348,109 +346,114 @@ html lang="en"
 														| &nbsp;
 														| Selasar Cafe & Resort, Taipe 
 								li.col-md-4
-									.cover
-										.number-1
-											.date-top
-												.date 21/02
-												.day mon
+									a href="" 
+										.cover
+											.number-1
+												.date-top
+													.date 21/02
+													.day mon
 
-											.wrapper-title
-												h3 
-													.top.title-blue
-														| Barasuara Music Live Only 
-													br
-													.bottom.title-blue
-														| Today	
+												.wrapper-title
+													h3 
+														.top.title-blue
+															| Barasuara Music Live Only 
+														br
+														.bottom.title-blue
+															| Today	
 
-												h5
-													.title-gold 
-														i.fa.fa-map-marker 
-														| &nbsp;
-														| Selasar Cafe & Resort, Taipe 
-
-								li.col-md-4
-									.cover
-										.number-1
-											.date-top
-												.date 21/02
-												.day mon
-
-											.wrapper-title
-												h3 
-													.top.title-blue
-														| Barasuara Music Live Only 
-													br
-													.bottom.title-blue
-														| Today	
-
-												h5
-													.title-gold 
-														i.fa.fa-map-marker 
-														| &nbsp;
-														| Selasar Cafe & Resort, Taipe 
+													h5
+														.title-gold 
+															i.fa.fa-map-marker 
+															| &nbsp;
+															| Selasar Cafe & Resort, Taipe 
 
 								li.col-md-4
-									.cover
-										.number-1
-											.date-top
-												.date 21/02
-												.day mon
+									a href="" 
+										.cover
+											.number-1
+												.date-top
+													.date 21/02
+													.day mon
 
-											.wrapper-title
-												h3 
-													.top.title-blue
-														| Barasuara Music Live Only 
-													br
-													.bottom.title-blue
-														| Today	
+												.wrapper-title
+													h3 
+														.top.title-blue
+															| Barasuara Music Live Only 
+														br
+														.bottom.title-blue
+															| Today	
 
-												h5
-													.title-gold 
-														i.fa.fa-map-marker 
-														| &nbsp;
-														| Selasar Cafe & Resort, Taipe 
-
-								li.col-md-4
-									.cover
-										.number-1
-											.date-top
-												.date 21/02
-												.day mon
-
-											.wrapper-title
-												h3 
-													.top.title-blue
-														| Barasuara Music Live Only 
-													br
-													.bottom.title-blue
-														| Today	
-
-												h5
-													.title-gold 
-														i.fa.fa-map-marker 
-														| &nbsp;
-														| Selasar Cafe & Resort, Taipe 
+													h5
+														.title-gold 
+															i.fa.fa-map-marker 
+															| &nbsp;
+															| Selasar Cafe & Resort, Taipe 
 
 								li.col-md-4
-									.cover
-										.number-1
-											.date-top
-												.date 21/02
-												.day mon
+									a href="" 
+										.cover
+											.number-1
+												.date-top
+													.date 21/02
+													.day mon
 
-											.wrapper-title
-												h3 
-													.top.title-blue
-														| Barasuara Music Live Only 
-													br
-													.bottom.title-blue
-														| Today	
+												.wrapper-title
+													h3 
+														.top.title-blue
+															| Barasuara Music Live Only 
+														br
+														.bottom.title-blue
+															| Today	
 
-												h5
-													.title-gold 
-														i.fa.fa-map-marker 
-														| &nbsp;
-														| Selasar Cafe & Resort, Taipe 
+													h5
+														.title-gold 
+															i.fa.fa-map-marker 
+															| &nbsp;
+															| Selasar Cafe & Resort, Taipe 
+
+								li.col-md-4
+									a href="" 
+										.cover
+											.number-1
+												.date-top
+													.date 21/02
+													.day mon
+
+												.wrapper-title
+													h3 
+														.top.title-blue
+															| Barasuara Music Live Only 
+														br
+														.bottom.title-blue
+															| Today	
+
+													h5
+														.title-gold 
+															i.fa.fa-map-marker 
+															| &nbsp;
+															| Selasar Cafe & Resort, Taipe 
+
+								li.col-md-4
+									a href="" 
+										.cover
+											.number-1
+												.date-top
+													.date 21/02
+													.day mon
+
+												.wrapper-title
+													h3 
+														.top.title-blue
+															| Barasuara Music Live Only 
+														br
+														.bottom.title-blue
+															| Today	
+
+													h5
+														.title-gold 
+															i.fa.fa-map-marker 
+															| &nbsp;
+															| Selasar Cafe & Resort, Taipe 
 
 
 		footer

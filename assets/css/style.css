@@ -8105,6 +8105,16 @@ a {
   font-size: 17px;
   color: #8C959A; }
 
+.tab-near {
+  background: #171b1d; }
+  .tab-near li > a > span {
+    width: 100%;
+    padding: 10px 25px; }
+  .tab-near li {
+    border: 1px solid #23292c; }
+    .tab-near li a {
+      display: block; }
+
 /* Helper Class */
 .container-bigscreen {
   padding-left: 50px;
