@@ -8143,6 +8143,9 @@ a {
       .tab-near li.active a:hover, .tab-near li.active a:focus {
         border-top: none; }
 
+.venue-xs {
+  min-height: 200px !important; }
+
 /* Helper Class */
 .container-bigscreen {
   padding-left: 50px;
