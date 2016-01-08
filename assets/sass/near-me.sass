@@ -1,9 +1,25 @@
-.tab-near
+.tab-top-near
 	background: #171b1d
+.tab-near
+	margin-top: -10px !important
+	+pad(30px 0)
 	li > a > span
 		width: 100%
 		+pad(10px 25px)
 	li
-		border: 1px solid #23292c 	
+		text-align: center
+		border: 1px solid #23292c !important	
+		background: transparent
+		// +pad(15px)
 		a
 			display: block
+			border-top: none
+			+pad(20px 0)
+	li.active
+		background: #1f2427
+		a
+			color: #878787
+			border-top: none
+			&:hover, &:focus
+				border-top: none
+

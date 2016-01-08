@@ -149,6 +149,9 @@ $(document).ready(function(){
 
 	var userList = new List('users', options);
 
+	/* tab */
+	$('#profile').tab('show')
+
 })(jQuery);
 
 
