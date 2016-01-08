@@ -8105,6 +8105,19 @@ a {
   font-size: 17px;
   color: #8C959A; }
 
+.tab-venue-bottom {
+  width: 100%; }
+  .tab-venue-bottom li {
+    border: 1px solid #f0f0f0;
+    width: 100%;
+    float: left; }
+  .tab-venue-bottom li > a {
+    border-top: 0px;
+    padding: 15px; }
+  .tab-venue-bottom li.active > a {
+    border-top: 0px !important;
+    background: #fbfbfb !important; }
+
 .tab-top-near {
   background: #171b1d; }
 
@@ -8174,6 +8187,9 @@ a {
 
 .pad-none {
   padding: 0px; }
+
+.pad-r-55 {
+  padding-right: 55px; }
 
 .float-l {
   float: left; }

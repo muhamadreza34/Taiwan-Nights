@@ -13,6 +13,7 @@ html lang="en"
 		link href="assets/sass/owl.theme.css" rel="stylesheet"
 		link href="assets/sass/owl.carousel.css" rel="stylesheet"
 		link href="assets/sass/owl.transitions.css" rel="stylesheet"
+		link href="assets/sass/bootstrap.vertical-tabs.min.css" rel="stylesheet"
 
 		/!JS
 		script src="assets/js/modernizr.custom.js"
@@ -184,139 +185,284 @@ html lang="en"
 			.container
 				.row	
 					ul.nav.nav-tabs.link-tab role="tablist" 
-					  li.active role="presentation" 
-					    a aria-controls="home" data-toggle="tab" href="#info" role="tab"  Info
-					  li role="presentation" 
-					    a aria-controls="profile" data-toggle="tab" href="#event" role="tab"  Event (8)
+						li.active role="presentation" 
+							a aria-controls="home" data-toggle="tab" href="#info" role="tab"  Info
+						li role="presentation" 
+							a aria-controls="profile" data-toggle="tab" href="#event" role="tab"  Event (8)
 		
 		.tab-content
 			#info.tab-pane.active role="tabpanel"			
-				.container
-					.row
-						.content-text
-							.col-md-9.left-side
-								.popup-gallery
-									a href="http://farm9.staticflickr.com/8242/8558295633_f34a55c1c6_b.jpg"  
-										img src="http://farm9.staticflickr.com/8242/8558295633_f34a55c1c6_s.jpg"
-									a href="http://farm9.staticflickr.com/8382/8558295631_0f56c1284f_b.jpg"  
-										img src="http://farm9.staticflickr.com/8382/8558295631_0f56c1284f_s.jpg" 
-									a href="http://farm9.staticflickr.com/8225/8558295635_b1c5ce2794_b.jpg"  
-										img src="http://farm9.staticflickr.com/8225/8558295635_b1c5ce2794_s.jpg"
-									a href="http://farm9.staticflickr.com/8383/8563475581_df05e9906d_b.jpg"  
-										img src="http://farm9.staticflickr.com/8383/8563475581_df05e9906d_s.jpg" 
-									a href="http://farm9.staticflickr.com/8235/8559402846_8b7f82e05d_b.jpg"  
-										img  src="http://farm9.staticflickr.com/8235/8559402846_8b7f82e05d_s.jpg"  
-									a href="http://farm9.staticflickr.com/8235/8558295467_e89e95e05a_b.jpg"  
-										img src="http://farm9.staticflickr.com/8235/8558295467_e89e95e05a_s.jpg" 
-									a href="http://farm9.staticflickr.com/8378/8559402848_9fcd90d20b_b.jpg" 
-										img src="http://farm9.staticflickr.com/8378/8559402848_9fcd90d20b_s.jpg" 
-									a href="http://farm9.staticflickr.com/8235/8559402846_8b7f82e05d_b.jpg"  
-										img src="http://farm9.staticflickr.com/8235/8559402846_8b7f82e05d_s.jpg" 
-									a href="http://farm9.staticflickr.com/8235/8559402846_8b7f82e05d_b.jpg"  
-										img src="http://farm9.staticflickr.com/8235/8559402846_8b7f82e05d_s.jpg"  
-									a href="http://farm9.staticflickr.com/8382/8558295631_0f56c1284f_b.jpg"  
-										img src="http://farm9.staticflickr.com/8382/8558295631_0f56c1284f_b.jpg" 
+				.tab-content
+					.container
+						.row
+							/ .col-md-9.left-side
+							/ 	#gi.tab-pane.active role="tabpanel"
+							/ 		.content-text
+							/ 			.popup-gallery
+							/ 				a href="http://farm9.staticflickr.com/8242/8558295633_f34a55c1c6_b.jpg"  
+							/ 					img src="http://farm9.staticflickr.com/8242/8558295633_f34a55c1c6_s.jpg"
+							/ 				a href="http://farm9.staticflickr.com/8382/8558295631_0f56c1284f_b.jpg"  
+							/ 					img src="http://farm9.staticflickr.com/8382/8558295631_0f56c1284f_s.jpg" 
+							/ 				a href="http://farm9.staticflickr.com/8225/8558295635_b1c5ce2794_b.jpg"  
+							/ 					img src="http://farm9.staticflickr.com/8225/8558295635_b1c5ce2794_s.jpg"
+							/ 				a href="http://farm9.staticflickr.com/8383/8563475581_df05e9906d_b.jpg"  
+							/ 					img src="http://farm9.staticflickr.com/8383/8563475581_df05e9906d_s.jpg" 
+							/ 				a href="http://farm9.staticflickr.com/8235/8559402846_8b7f82e05d_b.jpg"  
+							/ 					img  src="http://farm9.staticflickr.com/8235/8559402846_8b7f82e05d_s.jpg"  
+							/ 				a href="http://farm9.staticflickr.com/8235/8558295467_e89e95e05a_b.jpg"  
+							/ 					img src="http://farm9.staticflickr.com/8235/8558295467_e89e95e05a_s.jpg" 
+							/ 				a href="http://farm9.staticflickr.com/8378/8559402848_9fcd90d20b_b.jpg" 
+							/ 					img src="http://farm9.staticflickr.com/8378/8559402848_9fcd90d20b_s.jpg" 
+							/ 				a href="http://farm9.staticflickr.com/8235/8559402846_8b7f82e05d_b.jpg"  
+							/ 					img src="http://farm9.staticflickr.com/8235/8559402846_8b7f82e05d_s.jpg" 
+							/ 				a href="http://farm9.staticflickr.com/8235/8559402846_8b7f82e05d_b.jpg"  
+							/ 					img src="http://farm9.staticflickr.com/8235/8559402846_8b7f82e05d_s.jpg"  
+							/ 				a href="http://farm9.staticflickr.com/8382/8558295631_0f56c1284f_b.jpg"  
+							/ 					img src="http://farm9.staticflickr.com/8382/8558295631_0f56c1284f_b.jpg" 
 
-								p 1 Oak is one of New York City's most popular venues, boasting an elite crowd and exclusive parties. The club really gets moving at around 1:30-2, full of models, jet-setters, professionals and bohemians alike.   The line is long, and the club is packed, which makes it feel that much better if you can skip ahead to a VIP table.   1 Oak boasts a mixed crowd, ranging from international moguls to downtown artists, but is reserved for the elites of any group.  DJs spin a variety of music at 1 Oak, like Top 40 and hip-hop, as well as mainstream EDM / dance music. 1 Oak consistently hosts world-renowned DJs, and guests are often treated to surprise performances.  Getting into 1 Oak is easiest (still not very easy) early in the night, but it is strongly recommended that groups reserve a private table to make it through the door. 
-								
-								h2 1 OAK Table Service
-								p.b 1 OAK Table Reservation Time 
-								p It is possible to reserve a table the night of, but the sooner the better. Tables at 1 Oak sell out quickly, so if you know when you wanna come, act on it asap. Reservations will be honored as long as you’re there before capacity.
+							/ 			p 1 Oak is one of New York City's most popular venues, boasting an elite crowd and exclusive parties. The club really gets moving at around 1:30-2, full of models, jet-setters, professionals and bohemians alike.   The line is long, and the club is packed, which makes it feel that much better if you can skip ahead to a VIP table.   1 Oak boasts a mixed crowd, ranging from international moguls to downtown artists, but is reserved for the elites of any group.  DJs spin a variety of music at 1 Oak, like Top 40 and hip-hop, as well as mainstream EDM / dance music. 1 Oak consistently hosts world-renowned DJs, and guests are often treated to surprise performances.  Getting into 1 Oak is easiest (still not very easy) early in the night, but it is strongly recommended that groups reserve a private table to make it through the door. 
+										
+							/ 			h2 1 OAK Table Service
+							/ 			p.b 1 OAK Table Reservation Time 
+							/ 			p It is possible to reserve a table the night of, but the sooner the better. Tables at 1 Oak sell out quickly, so if you know when you wanna come, act on it asap. Reservations will be honored as long as you’re there before capacity.
 
-								p But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?
-								
-								p At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat
-								
-								p At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat. On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains.
+							/ 			p But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?
+										
+							/ 			p At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat
+										
+							/ 			p At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat. On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains.
 
-								br
+							/ 			br
 
-								.list-link
-									table.table
-										tr
-											td 
-												h5.mar-t-30 Opening Hours
-											td
-												ul.list-unstyled.link-info
-													li
-														span.day Monday
-													li
-														span.day Tuesday 
-													li
-														span.day Wednesday
-													li
-														span.day Thursday
-													li
-														span.day Friday
-													li
-														span.day Saturday
-													li
-														span.day Sunday
-											td
-												ul.list-unstyled.link-info
-													li 
-														span.time CLOSED
-													li
-														span.time 11:00 PM - 4:00 AM
-													li
-														span.time 11:00 PM - 2:00 AM
-													li
-														span.time 10:00 PM - 2:00 AM
-													li
-														span.time 11:00 PM - 4:00 AM
-													li
-														span.time 09:00 PM - 6:00 AM
-													li
-														span.time 11:00 PM - 3:00 AM
+							/ 			.list-link
+							/ 				table.table
+							/ 					tr
+							/ 						td 
+							/ 							h5.mar-t-30 Opening Hours
+							/ 						td
+							/ 							ul.list-unstyled.link-info
+							/ 								li
+							/ 									span.day Monday
+							/ 								li
+							/ 									span.day Tuesday 
+							/ 								li
+							/ 									span.day Wednesday
+							/ 								li
+							/ 									span.day Thursday
+							/ 								li
+							/ 									span.day Friday
+							/ 								li
+							/ 									span.day Saturday
+							/ 								li
+							/ 									span.day Sunday
+							/ 						td
+							/ 							ul.list-unstyled.link-info
+							/ 								li 
+							/ 									span.time CLOSED
+							/ 								li
+							/ 									span.time 11:00 PM - 4:00 AM
+							/ 								li
+							/ 									span.time 11:00 PM - 2:00 AM
+							/ 								li
+							/ 									span.time 10:00 PM - 2:00 AM
+							/ 								li
+							/ 									span.time 11:00 PM - 4:00 AM
+							/ 								li
+							/ 									span.time 09:00 PM - 6:00 AM
+							/ 								li
+							/ 									span.time 11:00 PM - 3:00 AM
+							/ 					tr 
+							/ 						td 
+							/ 							h5.mar-t-30 Social network
+							/ 						td
+							/ 							| 
+							/ 						td
+							/ 							ul.list-unstyled.link-info
+							/ 								li 
+							/ 									a.fb href="" Facebook
+							/ 								li
+							/ 									a.tw href="" Twitter
+							/ 								li
+							/ 									a.gp href="" Google Plus
+							/ 					tr 
+							/ 						td 
+							/ 							h5.mar-t-30 Website
+							/ 						td
+							/ 							| 
+							/ 						td
+							/ 							ul.list-unstyled.link-info
+							/ 								li 
+							/ 									a.fb href="" http://wwww.bdgpixel.com
+							/ 					tr.bor-bottom 
+							/ 						td 
+							/ 							h5.mar-t-30 Phone
+							/ 						td
+							/ 							| 
+							/ 						td
+							/ 							ul.list-unstyled.link-info
+							/ 								li 
+							/ 									a.fb href="" +62 857 999 8687
+							/ .col-md-9
+							/ 	#ts.tab-pane role="tabpanel"  ...
+							/ .col-md-9	
+							/ 	#ch.tab-pane role="tabpanel"  ...
+							/ .col-md-9	
+							/ 	#ei.tab-pane role="tabpanel"  ...
 
-										tr 
-											td 
-												h5.mar-t-30 Social network
-											td
-												| 
-											td
-												ul.list-unstyled.link-info
-													li 
-														a.fb href="" Facebook
-													li
-														a.tw href="" Twitter
-													li
-														a.gp href="" Google Plus
-										tr 
-											td 
-												h5.mar-t-30 Website
-											td
-												| 
-											td
-												ul.list-unstyled.link-info
-													li 
-														a.fb href="" http://wwww.bdgpixel.com
-										tr.bor-bottom 
-											td 
-												h5.mar-t-30 Phone
-											td
-												| 
-											td
-												ul.list-unstyled.link-info
-													li 
-														a.fb href="" +62 857 999 8687
-								
+							.col-md-9
+							  .tab-content
+							    #gi.tab-pane.active	
+							    	.row
+							    		.col-md-12.left-side.pad-r-55
+												.content-text
+													.popup-gallery
+														a href="http://farm9.staticflickr.com/8242/8558295633_f34a55c1c6_b.jpg"  
+															img src="http://farm9.staticflickr.com/8242/8558295633_f34a55c1c6_s.jpg"
+														a href="http://farm9.staticflickr.com/8382/8558295631_0f56c1284f_b.jpg"  
+															img src="http://farm9.staticflickr.com/8382/8558295631_0f56c1284f_s.jpg" 
+														a href="http://farm9.staticflickr.com/8225/8558295635_b1c5ce2794_b.jpg"  
+															img src="http://farm9.staticflickr.com/8225/8558295635_b1c5ce2794_s.jpg"
+														a href="http://farm9.staticflickr.com/8383/8563475581_df05e9906d_b.jpg"  
+															img src="http://farm9.staticflickr.com/8383/8563475581_df05e9906d_s.jpg" 
+														a href="http://farm9.staticflickr.com/8235/8559402846_8b7f82e05d_b.jpg"  
+															img  src="http://farm9.staticflickr.com/8235/8559402846_8b7f82e05d_s.jpg"  
+														a href="http://farm9.staticflickr.com/8235/8558295467_e89e95e05a_b.jpg"  
+															img src="http://farm9.staticflickr.com/8235/8558295467_e89e95e05a_s.jpg" 
+														a href="http://farm9.staticflickr.com/8378/8559402848_9fcd90d20b_b.jpg" 
+															img src="http://farm9.staticflickr.com/8378/8559402848_9fcd90d20b_s.jpg" 
+														a href="http://farm9.staticflickr.com/8235/8559402846_8b7f82e05d_b.jpg"  
+															img src="http://farm9.staticflickr.com/8235/8559402846_8b7f82e05d_s.jpg" 
+														a href="http://farm9.staticflickr.com/8235/8559402846_8b7f82e05d_b.jpg"  
+															img src="http://farm9.staticflickr.com/8235/8559402846_8b7f82e05d_s.jpg"  
+														a href="http://farm9.staticflickr.com/8382/8558295631_0f56c1284f_b.jpg"  
+															img src="http://farm9.staticflickr.com/8382/8558295631_0f56c1284f_b.jpg" 
+
+													p 1 Oak is one of New York City's most popular venues, boasting an elite crowd and exclusive parties. The club really gets moving at around 1:30-2, full of models, jet-setters, professionals and bohemians alike.   The line is long, and the club is packed, which makes it feel that much better if you can skip ahead to a VIP table.   1 Oak boasts a mixed crowd, ranging from international moguls to downtown artists, but is reserved for the elites of any group.  DJs spin a variety of music at 1 Oak, like Top 40 and hip-hop, as well as mainstream EDM / dance music. 1 Oak consistently hosts world-renowned DJs, and guests are often treated to surprise performances.  Getting into 1 Oak is easiest (still not very easy) early in the night, but it is strongly recommended that groups reserve a private table to make it through the door. 
+													
+													h2 1 OAK Table Service
+													p.b 1 OAK Table Reservation Time 
+													p It is possible to reserve a table the night of, but the sooner the better. Tables at 1 Oak sell out quickly, so if you know when you wanna come, act on it asap. Reservations will be honored as long as you’re there before capacity.
+
+													p But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?
+													
+													p At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat
+													
+													p At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat. On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains.
+
+													br
+
+													.list-link
+														table.table
+															tr
+																td 
+																	h5.mar-t-30 Opening Hours
+																td
+																	ul.list-unstyled.link-info
+																		li
+																			span.day Monday
+																		li
+																			span.day Tuesday 
+																		li
+																			span.day Wednesday
+																		li
+																			span.day Thursday
+																		li
+																			span.day Friday
+																		li
+																			span.day Saturday
+																		li
+																			span.day Sunday
+																td
+																	ul.list-unstyled.link-info
+																		li 
+																			span.time CLOSED
+																		li
+																			span.time 11:00 PM - 4:00 AM
+																		li
+																			span.time 11:00 PM - 2:00 AM
+																		li
+																			span.time 10:00 PM - 2:00 AM
+																		li
+																			span.time 11:00 PM - 4:00 AM
+																		li
+																			span.time 09:00 PM - 6:00 AM
+																		li
+																			span.time 11:00 PM - 3:00 AM
+															tr 
+																td 
+																	h5.mar-t-30 Social network
+																td
+																	| 
+																td
+																	ul.list-unstyled.link-info
+																		li 
+																			a.fb href="" Facebook
+																		li
+																			a.tw href="" Twitter
+																		li
+																			a.gp href="" Google Plus
+															tr 
+																td 
+																	h5.mar-t-30 Website
+																td
+																	| 
+																td
+																	ul.list-unstyled.link-info
+																		li 
+																			a.fb href="" http://wwww.bdgpixel.com
+															tr.bor-bottom 
+																td 
+																	h5.mar-t-30 Phone
+																td
+																	| 
+																td
+																	ul.list-unstyled.link-info
+																		li 
+																			a.fb href="" +62 857 999 8687
+							    #ts.tab-pane Profile Tab.
+							    #ch.tab-pane Messages Tab.
+							    #ei.tab-pane Settings Tab.
+							
 							.col-md-3
-								.share-social
-									h4 Share Social
-									ul
-										a href="" 
-											li.fb
-												i.fa.fa-facebook
-										a href=""
-											li.tw
-												i.fa.fa-twitter
-										a href=""
-											li.gp
-												i.fa.fa-google-plus
-										a href=""
-											li.ml
-												i.fa.fa-envelope-o 
+							  .content-text
+								  ul.nav.nav-tabs.tab-venue-bottom
+								    li.active
+								      a data-toggle="tab" href="#gi" General Information
+								    li
+								      a data-toggle="tab" href="#ts"  Table Services
+								    li
+								      a data-toggle="tab" href="#ch"  Complete Opening Hours
+								    li
+								      a data-toggle="tab" href="#ei"  Extra Information
+								  .share-social
+										h4 Share Social
+										ul
+											a href="" 
+												li.fb
+													i.fa.fa-facebook
+											a href=""
+												li.tw
+													i.fa.fa-twitter
+											a href=""
+												li.gp
+													i.fa.fa-google-plus
+											a href=""
+												li.ml
+													i.fa.fa-envelope-o 
+
+					
+							/ .col-md-3
+							/ 	ul.nav.nav-tabs.tab-venue-bottom role="tablist" 
+							/ 		li.active role="presentation" 
+							/ 			a aria-controls="home" data-toggle="tab" href="#gi" role="tab"  General Information
+							/ 		li role="presentation" 
+							/ 			a aria-controls="profile" data-toggle="tab" href="#ts" role="tab"  Table Services
+							/ 		li role="presentation" 
+							/ 			a aria-controls="profile" data-toggle="tab" href="#ch" role="tab"  Complete opening Hours
+							/ 		li role="presentation" 
+							/ 			a aria-controls="profile" data-toggle="tab" href="#ei" role="tab"  Extra Information
+								
+							
 												
 			#event.tab-pane role="tabpanel"
 				.container
