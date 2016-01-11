@@ -2007,7 +2007,7 @@
 		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"railsCompatible": 0
 		},
 	"\/event-index.html": {
@@ -2076,7 +2076,7 @@
 		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"railsCompatible": 0
 		},
 	"\/promoter-detail.html": {
@@ -2099,7 +2099,7 @@
 		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"railsCompatible": 0
 		},
 	"\/promoter-index.html": {
@@ -2145,7 +2145,7 @@
 		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"railsCompatible": 0
 		},
 	"\/venue-index.html": {
@@ -2168,7 +2168,7 @@
 		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"railsCompatible": 0
 		}
 	},
