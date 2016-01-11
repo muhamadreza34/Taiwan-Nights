@@ -99,6 +99,49 @@ $(document).ready(function(){
       });
   }
 
+  /* slider */
+ //  $('.slide-blog').slick({
+	//   slidesToShow: 1,
+	//   slidesToScroll: 1,
+	//   arrows: false,
+	//   fade: true,
+	//   asNavFor: '.slider-nav'
+	// });
+
+	// $('.slider-nav').slick({
+	//   slidesToShow: 3,
+	//   slidesToScroll: 1,
+	//   asNavFor: '.slider-for',
+	//   dots: true,
+	//   centerMode: true,
+	//   focusOnSelect: true
+	// });
+	$('.slide-blog').slick({
+	  centerMode: true,
+	  centerPadding: '350px',
+	  slidesToShow: 1,
+	  responsive: [
+	    {
+	      breakpoint: 768,
+	      settings: {
+	        arrows: false,
+	        centerMode: true,
+	        centerPadding: '40px',
+	        slidesToShow: 3
+	      }
+	    },
+	    {
+	      breakpoint: 480,
+	      settings: {
+	        arrows: false,
+	        centerMode: true,
+	        centerPadding: '40px',
+	        slidesToShow: 1
+	      }
+	    }
+	  ]
+	});
+
 });
 
 
