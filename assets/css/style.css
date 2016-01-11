@@ -8270,29 +8270,122 @@ a {
 
 .list-blog, .list-venue {
   margin-top: 100px; }
-  .list-blog .blog-card, .list-venue .blog-card {
-    margin-bottom: 40px; }
-    .list-blog .blog-card h3, .list-venue .blog-card h3 {
-      font-weight: 600; }
-    .list-blog .blog-card .icon-tag, .list-venue .blog-card .icon-tag {
-      padding: 5px 50px 15px 0;
-      display: inline-block; }
-      .list-blog .blog-card .icon-tag span > i, .list-venue .blog-card .icon-tag span > i {
-        display: inline-block;
-        color: #7f9097; }
-      .list-blog .blog-card .icon-tag span > .text, .list-venue .blog-card .icon-tag span > .text {
-        font-size: 14px;
-        margin-left: 5px;
-        font-weight: 100;
-        line-height: 20px;
-        display: inline-block;
-        color: #87989f; }
-    .list-blog .blog-card p, .list-venue .blog-card p {
-      font-size: 17px;
+
+.blog-card {
+  margin-bottom: 40px; }
+  .blog-card h3 {
+    font-weight: 600; }
+  .blog-card .icon-tag {
+    padding: 5px 50px 15px 0;
+    display: inline-block; }
+    .blog-card .icon-tag span > i {
+      display: inline-block;
+      color: #7f9097; }
+    .blog-card .icon-tag span > .text {
+      font-size: 14px;
+      margin-left: 5px;
+      font-weight: 100;
+      line-height: 20px;
+      display: inline-block;
+      color: #87989f; }
+  .blog-card p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    color: #87989f;
+    margin: 20px 0 35px 0; }
+
+.blog-detail {
+  margin-top: 150px; }
+  .blog-detail h1, .blog-detail h2, .blog-detail h3, .blog-detail h4, .blog-detail h5 {
+    font-weight: 700; }
+  .blog-detail .quotes {
+    font-family: "Playfair Display", serif;
+    border-left: 4px solid #d9dfe2;
+    padding: 5px 0 2px 10px;
+    margin-top: 40px; }
+    .blog-detail .quotes p {
+      margin: 5px 20px !important;
+      color: #c8d0d5; }
+  .blog-detail ul {
+    margin: -30px 0 -20px 0;
+    padding-bottom: 20px; }
+    .blog-detail ul li {
+      margin-left: -20px;
+      color: #8b9499;
+      line-height: 30px; }
+
+.user-profile-blog {
+  padding: 40px 0;
+  margin-top: 40px;
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6; }
+  .user-profile-blog .media-body h5 {
+    font-size: 14px;
+    font-weight: 600; }
+    .user-profile-blog .media-body h5 span {
+      color: #9cce00;
       font-weight: 300;
-      line-height: 28px;
-      color: #87989f;
-      margin: 20px 0 35px 0; }
+      font-style: italic; }
+  .user-profile-blog .media-body p {
+    font-weight: 100;
+    margin-top: -5px; }
+  .user-profile-blog .media-left {
+    width: 14%; }
+
+.recom-article {
+  background: #f8f8f8;
+  padding: 60px 0; }
+  .recom-article .list-blog-xs {
+    display: inline-block;
+    margin-bottom: 30px; }
+  .recom-article h4 {
+    font-weight: 600;
+    color: #768389; }
+  .recom-article p {
+    font-size: 13px;
+    font-weight: 100;
+    margin-top: -5px;
+    color: #b9b9b9; }
+  .recom-article .f-15 {
+    font-size: 15px !important;
+    margin-bottom: 25px; }
+
+.comment-sec {
+  margin-top: 70px; }
+  .comment-sec .comment {
+    height: 300px;
+    border: 1px solid #dce5e8;
+    border-radius: 0;
+    color: #a3b4ba;
+    padding: 10px; }
+
+.list-comment {
+  margin-top: 30px; }
+  .list-comment .media {
+    border-bottom: 1px solid #e7f1f4;
+    padding: 15px 0 10px 0; }
+  .list-comment .media-left {
+    width: 55px;
+    float: left; }
+    .list-comment .media-left img {
+      width: 40px;
+      height: 40px; }
+  .list-comment .media-body .info-detail {
+    margin-bottom: 20px; }
+    .list-comment .media-body .info-detail h5 {
+      font-size: 14px;
+      font-weight: 300;
+      color: #9cce00; }
+    .list-comment .media-body .info-detail p {
+      font-size: 12px;
+      color: #cdcdcd;
+      margin-top: -10px;
+      font-style: italic; }
+  .list-comment .media-body .text-comment p {
+    color: #8b9499;
+    line-height: 24px;
+    font-weight: 300; }
 
 /* Slider */
 .slick-slider {
@@ -8675,7 +8768,7 @@ a {
     float: left; }
 
 /* button */
-.btn-peneapple {
+.btn-peneapple, .btn-blue {
   border: 1px solid #e7f0f5;
   padding: 15px 70px;
   letter-spacing: 0.3px;
@@ -8684,11 +8777,16 @@ a {
   color: #9cce00;
   font-size: 12px;
   font-weight: 600; }
-  .btn-peneapple:hover {
+  .btn-peneapple:hover, .btn-blue:hover {
     color: #fff; }
 
 .hvr-sweep-to-right2:before {
   background: #9cce00 !important; }
+
+.btn-blue {
+  background: #37bdef;
+  color: #fff;
+  padding: 20px 30px; }
 
 .input-simple {
   border-left: none;

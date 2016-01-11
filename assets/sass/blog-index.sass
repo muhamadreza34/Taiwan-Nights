@@ -50,26 +50,26 @@
 
 .list-blog
 	+mar-t(100px)
-	.blog-card
-		+mar-b(40px)
-		h3
-			+fontweight(600)
-		.icon-tag
-			+pad(5px 50px 15px 0)
+.blog-card
+	+mar-b(40px)
+	h3
+		+fontweight(600)
+	.icon-tag
+		+pad(5px 50px 15px 0)
+		display: inline-block
+		span > i 
 			display: inline-block
-			span > i 
-				display: inline-block
-				color: #7f9097
-			span > .text
-				+fontsize(14px)
-				+mar-l(5px)
-				+fontweight(100)
-				line-height: 20px
-				display: inline-block
-				color: #87989f
-		p 
-			+fontsize(17px)
-			+fontweight(300)
-			line-height: 28px
+			color: #7f9097
+		span > .text
+			+fontsize(14px)
+			+mar-l(5px)
+			+fontweight(100)
+			line-height: 20px
+			display: inline-block
 			color: #87989f
-			margin: 20px 0 35px 0
+	p 
+		+fontsize(16px)
+		+fontweight(300)
+		line-height: 30px
+		color: #87989f
+		margin: 20px 0 35px 0
