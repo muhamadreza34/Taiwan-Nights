@@ -5,3 +5,72 @@
 @media screen and (max-width: 768px)
 	.view, .cover-event-top img
 		height: 320px
+
+
+
+// ****************************** 
+//            mobile
+// ******************************
+@media screen and (max-width: 320px)
+	.navbar-brand > img
+		width: 160px
+		margin-top: -25px
+	.container-bigscreen
+		+pad-l(0px !important)
+		+pad-r(0px !important)
+	.hero-big
+		.number-1
+			width: 100% !important
+		.number-2, .number-3, .number-4
+			display: none
+	.view, .cover-event-top img 
+		height: 370px
+		width: 100%
+
+
+@media screen and (min-width: 360px) and (max-width: 480px)
+	.container-bigscreen
+		+pad-l(0px !important)
+		+pad-r(0px !important)
+	.navbar-brand > img
+		+mar-t(-30px)
+	.list-event .col-xs-12
+		width: 50% !important
+	.view, .cover-event-top img
+		width: 205px !important
+	footer .link-bottom
+		+mar-t(40px)	
+
+@media screen and (min-width: 500px) and (max-width: 568px) 
+	
+	/* home page */
+	.hero-big
+		.number-1, .number-2
+			width: 50%
+		.number-3, .number-4
+			display: none
+	.container-bigscreen
+		+pad-l(0px !important)
+		+pad-r(20px !important)
+	.navbar-brand > img 
+		margin-top: -30px
+	.list-event .col-xs-12
+		width: 50% !important
+	.view, .cover-event-top img
+		width: 255px !important
+	.cover-normal
+		height: 280px !important
+	footer
+		.link-bottom
+			+mar-t(40px)
+
+
+
+@media screen and (max-width: 600px)
+	footer
+		+pad(40px 0 60px 0 !important) 
+	.hero-big
+		.number-1, .number-2
+			width: 50%
+		.number-3, .number-4
+			display: none

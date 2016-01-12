@@ -8504,6 +8504,72 @@ a {
 @media screen and (max-width: 768px) {
   .view, .cover-event-top img {
     height: 320px; } }
+@media screen and (max-width: 320px) {
+  .navbar-brand > img {
+    width: 160px;
+    margin-top: -25px; }
+
+  .container-bigscreen {
+    padding-left: 0px !important;
+    padding-right: 0px !important; }
+
+  .hero-big .number-1, .hero-big .content-list .cover .number-2, .content-list .cover .hero-big .number-2, .hero-big .content-list .cover-normal .number-2, .content-list .cover-normal .hero-big .number-2, .hero-big .content-list .list-blog .blog-cover .number-2, .content-list .list-blog .blog-cover .hero-big .number-2, .hero-big .list-blog .content-list .blog-cover .number-2, .list-blog .content-list .blog-cover .hero-big .number-2, .hero-big .content-list .list-venue .blog-cover .number-2, .content-list .list-venue .blog-cover .hero-big .number-2, .hero-big .list-venue .content-list .blog-cover .number-2, .list-venue .content-list .blog-cover .hero-big .number-2, .hero-big .content-list .list-venue .venue-cover .number-2, .content-list .list-venue .venue-cover .hero-big .number-2, .hero-big .list-venue .content-list .venue-cover .number-2, .list-venue .content-list .venue-cover .hero-big .number-2, .hero-big .content-list .promoter-cover-small .number-2, .content-list .promoter-cover-small .hero-big .number-2 {
+    width: 100% !important; }
+  .hero-big .number-2, .hero-big .number-3, .hero-big .number-4 {
+    display: none; }
+
+  .view, .cover-event-top img {
+    height: 370px;
+    width: 100%; } }
+@media screen and (min-width: 360px) and (max-width: 480px) {
+  .container-bigscreen {
+    padding-left: 0px !important;
+    padding-right: 0px !important; }
+
+  .navbar-brand > img {
+    margin-top: -30px; }
+
+  .list-event .col-xs-12, .list-blog .col-xs-12, .list-venue .col-xs-12 {
+    width: 50% !important; }
+
+  .view, .cover-event-top img {
+    width: 205px !important; }
+
+  footer .link-bottom {
+    margin-top: 40px; } }
+@media screen and (min-width: 500px) and (max-width: 568px) {
+  /* home page */
+  .hero-big .number-1, .hero-big .content-list .cover .number-2, .content-list .cover .hero-big .number-2, .hero-big .content-list .cover-normal .number-2, .content-list .cover-normal .hero-big .number-2, .hero-big .content-list .list-blog .blog-cover .number-2, .content-list .list-blog .blog-cover .hero-big .number-2, .hero-big .list-blog .content-list .blog-cover .number-2, .list-blog .content-list .blog-cover .hero-big .number-2, .hero-big .content-list .list-venue .blog-cover .number-2, .content-list .list-venue .blog-cover .hero-big .number-2, .hero-big .list-venue .content-list .blog-cover .number-2, .list-venue .content-list .blog-cover .hero-big .number-2, .hero-big .content-list .list-venue .venue-cover .number-2, .content-list .list-venue .venue-cover .hero-big .number-2, .hero-big .list-venue .content-list .venue-cover .number-2, .list-venue .content-list .venue-cover .hero-big .number-2, .hero-big .content-list .promoter-cover-small .number-2, .content-list .promoter-cover-small .hero-big .number-2, .hero-big .number-2 {
+    width: 50%; }
+  .hero-big .number-3, .hero-big .number-4 {
+    display: none; }
+
+  .container-bigscreen {
+    padding-left: 0px !important;
+    padding-right: 20px !important; }
+
+  .navbar-brand > img {
+    margin-top: -30px; }
+
+  .list-event .col-xs-12, .list-blog .col-xs-12, .list-venue .col-xs-12 {
+    width: 50% !important; }
+
+  .view, .cover-event-top img {
+    width: 255px !important; }
+
+  .cover-normal, .list-blog .blog-cover, .list-venue .blog-cover, .list-venue .venue-cover, .promoter-cover-small {
+    height: 280px !important; }
+
+  footer .link-bottom {
+    margin-top: 40px; } }
+@media screen and (max-width: 600px) {
+  footer {
+    padding: 40px 0 60px 0 !important; }
+
+  .hero-big .number-1, .hero-big .content-list .cover .number-2, .content-list .cover .hero-big .number-2, .hero-big .content-list .cover-normal .number-2, .content-list .cover-normal .hero-big .number-2, .hero-big .content-list .list-blog .blog-cover .number-2, .content-list .list-blog .blog-cover .hero-big .number-2, .hero-big .list-blog .content-list .blog-cover .number-2, .list-blog .content-list .blog-cover .hero-big .number-2, .hero-big .content-list .list-venue .blog-cover .number-2, .content-list .list-venue .blog-cover .hero-big .number-2, .hero-big .list-venue .content-list .blog-cover .number-2, .list-venue .content-list .blog-cover .hero-big .number-2, .hero-big .content-list .list-venue .venue-cover .number-2, .content-list .list-venue .venue-cover .hero-big .number-2, .hero-big .list-venue .content-list .venue-cover .number-2, .list-venue .content-list .venue-cover .hero-big .number-2, .hero-big .content-list .promoter-cover-small .number-2, .content-list .promoter-cover-small .hero-big .number-2, .hero-big .number-2 {
+    width: 50%; }
+  .hero-big .number-3, .hero-big .number-4 {
+    display: none; } }
 /* Slider */
 .slick-slider {
   position: relative;
