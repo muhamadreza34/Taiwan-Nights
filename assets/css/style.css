@@ -8597,6 +8597,22 @@ a {
       font-size: 12px;
       font-weight: 600; }
 
+  /* event index */
+  .list-month .month, .date-tab .list-month .month a, .list-month span > .week {
+    text-align: left;
+    float: left; }
+  .list-month .month, .date-tab .list-month .month a {
+    font-size: 26px !important; }
+  .list-month .week {
+    font-size: 15px !important;
+    margin-top: 43px !important;
+    width: 50px !important; }
+  .list-month .tab {
+    width: 100%; }
+
+  #map {
+    width: 96.3% !important; }
+
   footer {
     padding: 40px 0 60px 0 !important; }
 
