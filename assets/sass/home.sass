@@ -112,14 +112,81 @@
 
 /* =========== THIRD EFFECTS ======== */
 .view
-	margin: 10px
+	margin-bottom: 30px
 	float: left
-	border: 5px solid #fff
 	overflow: hidden
 	position: relative
-	text-align: center
-	box-shadow: 0px 0px 5px #aaa
+	text-align: left
 	cursor: default
+	height: 475px
+	&:after
+		background-image: -webkit-linear-gradient(135deg, rgba(55, 68, 75, 0.6), #37444b)
+		background-image: -moz-linear-gradient(135deg, rgba(55, 68, 75, 0.6), #37444b)
+		background-image: -o-linear-gradient(135deg, rgba(55, 68, 75, 0.6), #37444b)
+		opacity: 0.7
+		background-image: linear-gradient(135deg, rgba(55, 68, 75, 0.6), #37444b)
+		background: rgba(55, 68, 75, 0.6)
+		position: absolute
+		top: 0px
+		bottom: 0px
+		right: 0px
+		left: 0
+		content: ""
+	&:hover
+		background: transparent
+	.date-top
+		padding: 5px 10px
+		margin: 15px
+		width: auto
+		color: #fff
+		display: inline-block
+		position: absolute
+		background: #93c5d8
+		z-index: 1
+	.wrapper-title
+		position: absolute
+		display: inline-block
+		bottom: 15px
+		+mar(15px)
+		z-index: 1
+		h3
+			+fontsize(18px)
+			+fontweight(100 !important)
+			letter-spacing: 0.8px
+			.top, .bottom
+				color: #fff 
+				+pad(5px 10px)
+			.title-blue
+				background: $peter-river
+			.title-purple
+				background: $purple 
+			.title-evergreen
+				background: $evergreen  
+			.title-green
+				background: $peneapple
+
+			.top
+				display: inline-block
+				width: auto
+				margin-bottom: 8px
+			.bottom
+				display: inline
+				width: auto
+
+		h5 
+			+mar-t(7px)
+			+fontsize(13px)
+			+fontweight(100)
+			letter-spacing: 0.5px
+			width: auto
+			display: inline-block
+			color: #fff
+
+			.title-gold
+				background: #d3c19d
+				+pad(5px 10px)
+				i
+					color: #80755f
 
 .view .mask, .view .content 
 	position: absolute
@@ -132,7 +199,6 @@
 	position: relative
 
 .view a.info 
-	background: url(../img/link.png) center no-repeat
 	display: inline-block
 	text-decoration: none
 	padding: 0
@@ -147,10 +213,13 @@
 .cover-event-top img
 	display: block
 	position: relative
+	margin-bottom: 20px
 .cover-event-top .mask 
 	opacity: 0
 	overflow: visible
-	border: 100px solid rgba(0,0,0,0.7)
+	height: 100%
+	padding: 110px 40px
+	// border: 100px solid rgba(0,0,0,0.7)
 	-moz-box-sizing: border-box
 	-webkit-box-sizing: border-box
 	box-sizing: border-box
@@ -159,6 +228,49 @@
 	-o-transition: all 0.4s ease-in-out
 	-ms-transition: all 0.4s ease-in-out
 	transition: all 0.4s ease-in-out
+	h3
+		+pad(0 10px)
+		a 
+			+fontsize(24px)
+			color: #526168
+			&:hover
+				color: #00adee
+	.detail-info
+		+pad(0 10px)
+		+mar(40px 0 5px 0)
+		display: inline-block
+		.loc, .cal, .time
+			width: 100%
+			float: left
+			padding-bottom: 15px
+			color: #a9b2b6
+			i 
+				+pad-r(20px)
+	hr
+		+pad(0 20px)
+	.gender
+		width: 100%
+		margin-bottom: 3px
+		display: inline-block
+		+pad(0 10px)
+		.men, .women 
+			text-align: center
+			background: #a9b2b6
+			float: left
+			width: 25%
+			height: 64px
+			+pad(21px 30px)
+		.price
+			float: left
+			height: 64px
+			background: #ededed
+			width: 75%
+			line-height: 65px
+			padding-left: 30px
+			color: #959ea3
+			+fontweight(100)
+			+fontsize(20px)
+
 
 .cover-event-top a.info
 	position: relative
@@ -172,7 +284,11 @@
 
 .cover-event-top:hover .mask 
 	opacity: 1
-	border: 100px solid rgba(0,0,0,0.7)
+	background: #f8f8f8
+	width: 100%
+	height: 100%
+	z-index: 1
+	+pad(15px)
 
 .cover-event-top:hover a.info 
 	opacity: 1

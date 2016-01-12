@@ -276,6 +276,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/image\/female.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1455,
+		"inputAbbreviatedPath": "\/assets\/image\/female.png",
+		"outputAbbreviatedPath": "\/assets\/image\/female.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/image\/logo-big.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -294,6 +305,17 @@
 		"initialSize": 7078,
 		"inputAbbreviatedPath": "\/assets\/image\/logo.png",
 		"outputAbbreviatedPath": "\/assets\/image\/logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/image\/men.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1544,
+		"inputAbbreviatedPath": "\/assets\/image\/men.png",
+		"outputAbbreviatedPath": "\/assets\/image\/men.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -404,6 +426,17 @@
 		"initialSize": 214617,
 		"inputAbbreviatedPath": "\/assets\/image\/venue\/5.jpg",
 		"outputAbbreviatedPath": "\/assets\/image\/venue\/5.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/image\/women.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1544,
+		"inputAbbreviatedPath": "\/assets\/image\/women.png",
+		"outputAbbreviatedPath": "\/assets\/image\/women.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

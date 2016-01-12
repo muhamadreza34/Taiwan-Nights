@@ -7829,14 +7829,78 @@ a {
 
 /* =========== THIRD EFFECTS ======== */
 .view {
-  margin: 10px;
+  margin-bottom: 30px;
   float: left;
-  border: 5px solid #fff;
   overflow: hidden;
   position: relative;
-  text-align: center;
-  box-shadow: 0px 0px 5px #aaa;
-  cursor: default; }
+  text-align: left;
+  cursor: default;
+  height: 475px; }
+  .view:after {
+    background-image: -webkit-linear-gradient(135deg, rgba(55, 68, 75, 0.6), #37444b);
+    background-image: -moz-linear-gradient(135deg, rgba(55, 68, 75, 0.6), #37444b);
+    background-image: -o-linear-gradient(135deg, rgba(55, 68, 75, 0.6), #37444b);
+    opacity: 0.7;
+    background-image: linear-gradient(135deg, rgba(55, 68, 75, 0.6), #37444b);
+    background: rgba(55, 68, 75, 0.6);
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0;
+    content: ""; }
+  .view:hover {
+    background: transparent; }
+  .view .date-top {
+    padding: 5px 10px;
+    margin: 15px;
+    width: auto;
+    color: #fff;
+    display: inline-block;
+    position: absolute;
+    background: #93c5d8;
+    z-index: 1; }
+  .view .wrapper-title {
+    position: absolute;
+    display: inline-block;
+    bottom: 15px;
+    margin: 15px;
+    z-index: 1; }
+    .view .wrapper-title h3 {
+      font-size: 18px;
+      font-weight: 100 !important;
+      letter-spacing: 0.8px; }
+      .view .wrapper-title h3 .top, .view .wrapper-title h3 .bottom {
+        color: #fff;
+        padding: 5px 10px; }
+      .view .wrapper-title h3 .title-blue {
+        background: #00adee; }
+      .view .wrapper-title h3 .title-purple {
+        background: #860cdb; }
+      .view .wrapper-title h3 .title-evergreen {
+        background: #00b57b; }
+      .view .wrapper-title h3 .title-green {
+        background: #9cce00; }
+      .view .wrapper-title h3 .top {
+        display: inline-block;
+        width: auto;
+        margin-bottom: 8px; }
+      .view .wrapper-title h3 .bottom {
+        display: inline;
+        width: auto; }
+    .view .wrapper-title h5 {
+      margin-top: 7px;
+      font-size: 13px;
+      font-weight: 100;
+      letter-spacing: 0.5px;
+      width: auto;
+      display: inline-block;
+      color: #fff; }
+      .view .wrapper-title h5 .title-gold {
+        background: #d3c19d;
+        padding: 5px 10px; }
+        .view .wrapper-title h5 .title-gold i {
+          color: #80755f; }
 
 .view .mask, .view .content {
   position: absolute;
@@ -7849,7 +7913,6 @@ a {
   position: relative; }
 
 .view a.info {
-  background: url(../img/link.png) center no-repeat;
   display: inline-block;
   text-decoration: none;
   padding: 0;
@@ -7863,12 +7926,14 @@ a {
 
 .cover-event-top img {
   display: block;
-  position: relative; }
+  position: relative;
+  margin-bottom: 20px; }
 
 .cover-event-top .mask {
   opacity: 0;
   overflow: visible;
-  border: 100px solid rgba(0, 0, 0, 0.7);
+  height: 100%;
+  padding: 110px 40px;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -7877,6 +7942,48 @@ a {
   -o-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out; }
+  .cover-event-top .mask h3 {
+    padding: 0 10px; }
+    .cover-event-top .mask h3 a {
+      font-size: 24px;
+      color: #526168; }
+      .cover-event-top .mask h3 a:hover {
+        color: #00adee; }
+  .cover-event-top .mask .detail-info {
+    padding: 0 10px;
+    margin: 40px 0 5px 0;
+    display: inline-block; }
+    .cover-event-top .mask .detail-info .loc, .cover-event-top .mask .detail-info .cal, .cover-event-top .mask .detail-info .time {
+      width: 100%;
+      float: left;
+      padding-bottom: 15px;
+      color: #a9b2b6; }
+      .cover-event-top .mask .detail-info .loc i, .cover-event-top .mask .detail-info .cal i, .cover-event-top .mask .detail-info .time i {
+        padding-right: 20px; }
+  .cover-event-top .mask hr {
+    padding: 0 20px; }
+  .cover-event-top .mask .gender {
+    width: 100%;
+    margin-bottom: 3px;
+    display: inline-block;
+    padding: 0 10px; }
+    .cover-event-top .mask .gender .men, .cover-event-top .mask .gender .women {
+      text-align: center;
+      background: #a9b2b6;
+      float: left;
+      width: 25%;
+      height: 64px;
+      padding: 21px 30px; }
+    .cover-event-top .mask .gender .price {
+      float: left;
+      height: 64px;
+      background: #ededed;
+      width: 75%;
+      line-height: 65px;
+      padding-left: 30px;
+      color: #959ea3;
+      font-weight: 100;
+      font-size: 20px; }
 
 .cover-event-top a.info {
   position: relative;
@@ -7890,7 +7997,11 @@ a {
 
 .cover-event-top:hover .mask {
   opacity: 1;
-  border: 100px solid rgba(0, 0, 0, 0.7); }
+  background: #f8f8f8;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  padding: 15px; }
 
 .cover-event-top:hover a.info {
   opacity: 1;
