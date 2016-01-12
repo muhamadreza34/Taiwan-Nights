@@ -8563,6 +8563,40 @@ a {
   footer .link-bottom {
     margin-top: 40px; } }
 @media screen and (max-width: 600px) {
+  /* home page */
+  .cover-event-top .mask hr {
+    margin: 5px 0 10px 0; }
+  .cover-event-top .mask h3 > a {
+    font-size: 16px; }
+  .cover-event-top .mask .detail-info {
+    margin: 10px 0 5px 0; }
+  .cover-event-top .mask .gender .men, .cover-event-top .mask .gender .women {
+    height: 44px !important;
+    width: 30%;
+    padding: 11px 30px; }
+    .cover-event-top .mask .gender .men img, .cover-event-top .mask .gender .women img {
+      width: 100px;
+      height: auto; }
+  .cover-event-top .mask .gender .price {
+    width: 70%;
+    height: 44px !important;
+    line-height: 45px; }
+  .cover-event-top .mask .bottom {
+    padding: 10px 10px; }
+    .cover-event-top .mask .bottom .btn-xs, .cover-event-top .mask .bottom .btn-group-xs > .btn {
+      border: 1px solid #e7f0f5;
+      padding: 15px 70px;
+      margin-top: 0px;
+      width: 100% !important;
+      text-align: center;
+      letter-spacing: 0.3px;
+      width: auto;
+      text-transform: uppercase;
+      color: #9cce00;
+      display: inline-block;
+      font-size: 12px;
+      font-weight: 600; }
+
   footer {
     padding: 40px 0 60px 0 !important; }
 

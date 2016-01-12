@@ -67,6 +67,43 @@
 
 
 @media screen and (max-width: 600px)
+	
+	/* home page */
+	.cover-event-top 
+		.mask
+			hr
+				+mar(5px 0 10px 0)
+			h3 > a
+				+fontsize(16px)
+			.detail-info
+				margin: 10px 0 5px 0
+			.gender
+				.men, .women
+					height: 44px !important
+					width: 30%
+					+pad(11px 30px)
+					img
+						width: 100px
+						height: auto
+				.price
+					width: 70%
+					height: 44px !important
+					line-height: 45px
+			.bottom
+				+pad(10px 10px)
+				.btn-xs
+					+border(1px solid #e7f0f5)
+					+pad(15px 70px)
+					+mar-t(0px)
+					width: 100% !important
+					text-align: center
+					letter-spacing: 0.3px
+					width: auto
+					text-transform: uppercase
+					color: $peneapple
+					display: inline-block
+					+fontsize(12px)
+					+fontweight(600)
 	footer
 		+pad(40px 0 60px 0 !important) 
 	.hero-big
@@ -74,3 +111,4 @@
 			width: 50%
 		.number-3, .number-4
 			display: none
+
